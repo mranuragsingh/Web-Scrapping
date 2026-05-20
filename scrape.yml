@@ -1,0 +1,51 @@
+name: Scrape Asian Metal
+
+# Two runs per day. Times below are UTC; IST is UTC+5:30, so:
+#   - 07:15 UTC  → 12:45 IST  (midday snapshot)
+#   - 17:08 UTC  → 22:38 IST  (re-check evening revisions)
+# The second run picks up any prices the source revised after midday and
+# overwrites today's row in prices.csv for those products.
+on:
+  schedule:
+    - cron: "15 7 * * *"
+    - cron: "08 17 * * *"
+  workflow_dispatch:   # also runnable manually from the Actions tab
+
+permissions:
+  contents: write       # needed to push the updated prices.csv
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Audit coverage vs catalog
+        run: python audit.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.csv coverage_report.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "scrape: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

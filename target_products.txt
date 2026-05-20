@@ -1,0 +1,705 @@
+Metals-Al-Al Alloy-Price Data-Aluminum Alloy A356.2 EXW China RMB/mt-High
+Metals-Al-Al Alloy-Price Data-Aluminum Alloy ADC12 EXW China RMB/mt-High
+Metals-Al-Al Alloy-Price Data-Aluminum Alloy ADC12 FOB China USD/mt-High
+Metals-Al-Al Alumina-Price Data-Alumina 98.5%min EXW China RMB/mt-High
+Metals-Al-Al Alumina-Price Data-Alumina 98.5%min FOB Australia USD/mt-High
+Metals-Al-Al Alumina-Price Data-Caustic Soda 32%min Delivered China RMB/mt 100-basis-High
+Metals-Al-Al Bar-Price Data-Aluminum Bar TC 6063 120mm In warehouse Foshan RMB/mt-High
+Metals-Al-Al Bar-Price Data-Aluminum Bar TC 6063 120mm In warehouse Wuxi RMB/mt-High
+Metals-Al-Al Bauxite-Price Data-Bauxite Al2O3 60%min, Al/Si 5.0, Ex-VAT Delivered China RMB/mt-High
+Metals-Al-Al Bauxite-Price Data-Bauxite Australian Monohydrate 52%min CIF China USD/dt-High
+Metals-Al-Al Bauxite-Price Data-Bauxite Guinean 45%min CIF China USD/dt-High
+Metals-Al-Al Bauxite-Price Data-Bauxite Indonesian 47%min CIF China USD/dt-High
+Metals-Al-Al Fluoride-Price Data-Aluminum Fluoride 61%min EXW China RMB/mt-High
+Metals-Al-Al Fluoride-Price Data-Aluminum Fluoride 61%min FOB China USD/mt-High
+Metals-Al-Al Fluoride-Price Data-Fluorspar 97%min Delivered China RMB/mt-High
+Metals-Al-Al Hydroxide-Price Data-Aluminum Hydroxide 64.5%min EXW China RMB/mt-High
+Metals-Al-Al Ingot-Price Data-Aluminum Ingot 99.7%min In warehouse Guangzhou RMB/mt-High
+Metals-Al-Al Ingot-Price Data-Aluminum Ingot 99.7%min In warehouse Shanghai RMB/mt-High
+Metals-Al-Al Scrap-Price Data-Aluminum Scrap Foundry Scrap Al 86%min Delivered China RMB/mt-High
+Metals-Al-Al Scrap-Price Data-Aluminum Scrap Foundry Scrap Al 91%min Delivered China RMB/mt-High
+Metals-Al-Al Scrap-Price Data-Aluminum Scrap Plate Scrap Al 88%min Delivered China RMB/mt-High
+Metals-Al-Al Scrap-Price Data-Aluminum Scrap Profile Scrap Al 88%min Delivered China RMB/mt-High
+Metals-Al-Al Scrap-Price Data-Aluminum Scrap Zorba 98-1 CIF China USD/mt-High
+Metals-As-As Metal-Price Data-Arsenic Metal 99%min EXW China RMB/mt-High
+Metals-As-As Metal-Price Data-Arsenic Metal 99%min FOB China USD/mt-High
+Metals-As-As Trioxide-Price Data-Arsenic Trioxide 99%min EXW China RMB/mt-High
+Metals-As-As Trioxide-Price Data-Arsenic Trioxide 99%min FOB China USD/mt-High
+Metals-Bi-Bi Ingot-Price Data-Bismuth Ingot 99.99%min Delivered Europe USD/lb-High
+Metals-Bi-Bi Ingot-Price Data-Bismuth Ingot 99.99%min Delivered India INR/kg-High
+Metals-Bi-Bi Ingot-Price Data-Bismuth Ingot 99.99%min Delivered US USD/lb-High
+Metals-Bi-Bi Ingot-Price Data-Bismuth Ingot 99.99%min EXW China RMB/mt-High
+Metals-Bi-Bi Ingot-Price Data-Bismuth Ingot 99.99%min FOB China USD/lb-High
+Metals-Bi-Bi Trioxide-Price Data-Bismuth Oxide 99.9%min EXW China RMB/mt-High
+Metals-Ca-Price Data-Calcium Granule Electrolytic 98.5%min EXW China RMB/mt-High
+Metals-Ca-Price Data-Calcium Granule Electrolytic 98.5%min FOB China USD/mt-High
+Metals-Ca-Price Data-Calcium Granule Reductive 98%min EXW China RMB/mt-High
+Metals-Ca-Price Data-Calcium Granule Reductive 98%min FOB China USD/mt-High
+Metals-Ca-Price Data-Calcium Ingot Reductive 98%min EXW China RMB/mt-High
+Metals-CaSi-Price Data-Calcium-silicon 28-55 EXW China RMB/mt-High
+Metals-CaSi-Price Data-Calcium-silicon 28-55 FOB China USD/mt-High
+Metals-CaSi-Price Data-Calcium-silicon 30-60 EXW China RMB/mt-High
+Metals-CaSi-Price Data-Calcium-silicon 30-60 FOB China USD/mt-High
+Metals-Cd-Cd Ingot-Price Data-Cadmium Ingot 99.99%min Delivered India INR/kg-High
+Metals-Cd-Cd Ingot-Price Data-Cadmium Ingot 99.99%min EXW China RMB/mt-High
+Metals-Cd-Cd Ingot-Price Data-Cadmium Ingot 99.99%min In warehouse Baltimore USD/lb-High
+Metals-Cd-Cd Ingot-Price Data-Cadmium Ingot 99.99%min In warehouse Rotterdam USD/lb-High
+Metals-Co-Co Carbonate-Price Data-Cobalt Carbonate 46%min Delivered China RMB/mt-High
+Metals-Co-Co Carbonate-Price Data-LNCMO 523 Delivered China RMB/kg-High
+Metals-Co-Co Carbonate-Price Data-LNCMO 622 Delivered China RMB/kg-High
+Metals-Co-Co Chloride-Price Data-Cobalt Chloride 24%min Delivered China RMB/mt-High
+Metals-Co-Co Conc.-Price Data-Cobalt Conc. 6-8% CIF China USD/lb Co-High
+Metals-Co-Co Intermediate-Price Data-Cobalt Intermediate 20-30% CIF China USD/lb Co-High
+Metals-Co-Co Metal-Price Data-Cobalt Metal 99.8%min Delivered China RMB/kg-High
+Metals-Co-Co Metal-Price Data-Cobalt Metal 99.8%min In warehouse Baltimore USD/lb-High
+Metals-Co-Co Metal-Price Data-Cobalt Metal 99.8%min In warehouse Rotterdam USD/lb-High
+Metals-Co-Co Monoxide-Price Data-Cobalt Monoxide 78%min Delivered China RMB/kg-High
+Metals-Co-Co NCM-Price Data-NCM 523 Delivered China RMB/mt-High
+Metals-Co-Co NCM-Price Data-NCM 622 Delivered China RMB/mt-High
+Metals-Co-Co Oxide-Price Data-Cobalt Oxide 72%min Delivered China RMB/kg-High
+Metals-Co-Co Oxide-Price Data-Cobalt Oxide 72%min In warehouse Rotterdam EUR/kg-High
+Metals-Co-Co Powder-Price Data-Cobalt Powder 99.5%min Delivered China RMB/kg-High
+Metals-Co-Co Sulfate-Price Data-Cobalt Sulfate 20.5%min Delivered China RMB/mt-High
+Metals-Co-Co Tetroxide-Price Data-Cobalt Tetroxide 73.5%min Delivered China RMB/kg-High
+Metals-Co-Co Tetroxide-Price Data-Lithium Cobaltate Co 60%min Delivered China RMB/kg-High
+Metals-Co-SmCo-Price Data-Samarium Cobalt 30H EXW China RMB/kg-High
+Metals-Cr Ore-Price Data-Chrome Conc. 40%min FOB S.A. USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. 42%min FOB S.A. USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. 46%min FOB Turkey USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. S.A. 40%min CIF China USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. S.A. 40%min In port China RMB/dmtu-High
+Metals-Cr Ore-Price Data-Chrome Conc. S.A. 42%min CIF China USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. Turkish 46%min CIF China USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Conc. Turkish 46%min In port China RMB/dmtu-High
+Metals-Cr Ore-Price Data-Chrome Lump 40%min FOB Turkey USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Lump Turkish 40%min CIF China USD/mt-High
+Metals-Cr Ore-Price Data-Chrome Lump Turkish 40%min In port China RMB/dmtu-High
+Metals-Cr-Cr Metal-Price Data-Chromium Metal 99%min EXW China RMB/mt-High
+Metals-Cr-Cr Metal-Price Data-Chromium Metal 99%min FOB China USD/mt-High
+Metals-Cr-Cr Oxide Green-Price Data-Chromium Oxide Green 99%min EXW China RMB/mt-High
+Metals-Cr-Cr Trioxide-Price Data-Chromic Anhydride 99.8%min EXW China RMB/mt-High
+Metals-Cu-Cu Cathode-Price Data-Copper Cathode 99.99%min Delivered China RMB/mt-High
+Metals-Cu-Cu Conc.-Price Data-Copper Conc. 20%min Delivered China RMB/mt Cu-High
+Metals-Cu-Cu Conc.-Price Data-Copper Conc. TC 25%min CIF China USD/mt-High
+Metals-Cu-Cu Crude-Price Data-Blister Copper TC 98.5%min Delivered China RMB/mt-High
+Metals-Cu-Cu Rod-Price Data-Copper Rod TC Ф8mm EXW China RMB/mt-High
+Metals-Cu-Cu Scrap-Price Data-Copper Scrap Wire 99%min Delivered China RMB/mt-High
+Metals-FeB-Price Data-Ferro-boron B 18%, C 0.5%max EXW China RMB/mt-High
+Metals-FeB-Price Data-Ferro-boron B 18%, C 0.5%max FOB China USD/mt-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Cr 52%min, C 8%max EXW China RMB/mt 50-basis-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Cr 60%min, C 8%max In warehouse Pittsburg USD/lb Cr-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Cr 60%min, C 8%max In warehouse Rotterdam USD/lb Cr-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Cr 60%min, C 8.5%max In warehouse Russia RUB/kg-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Indian Cr 58%min, C 8%max CIF China USD/lb Cr-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Indian Cr 58%min, C 8%max In port China RMB/mt 50-basis-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Kazakhstan Cr 68%min, C 8.5%max DAF China USD/lb Cr-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome Kazakhstan Cr 68%min, C 8.5%max In port China RMB/mt 50-basis-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome S.A. Cr 50%min, C 8%max CIF China USD/lb Cr-High
+Metals-FeCr-FeCr HC-Price Data-Ferro-chrome S.A. Cr 50%min, C 8%max In port China RMB/mt 50-basis-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 55%min, C 0.1%max EXW China RMB/mt 60-basis-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 55%min, C 0.25%max EXW China RMB/mt 60-basis-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 58%min, C 0.1%max FOB China USD/lb Cr 60-basis-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 60%min, C 0.1%max In warehouse Pittsburgh USD/lb Cr-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 60%min, C 0.1%max In warehouse Rotterdam USD/lb Cr-High
+Metals-FeCr-FeCr LC-Price Data-Ferro-chrome Cr 65%min, C 0.1%max In warehouse Russia RUB/kg-High
+Metals-FeMn-FeMn HC-Price Data-Ferro-manganese Mn 65%min, C 7%max EXW China RMB/mt-High
+Metals-FeMn-FeMn HC-Price Data-Ferro-manganese Mn 75%min, C 8%max EXW China RMB/mt-High
+Metals-FeMn-FeMn HC-Price Data-Ferro-manganese Mn 78%min, C 7%max In warehouse Russia RUB/kg-High
+Metals-FeMn-FeMn HC-Price Data-Ferro-manganese Mn 78%min, C 8%max Delivered Europe EUR/mt-High
+Metals-FeMn-FeMn HC-Price Data-Ferro-manganese Mn 78%min, C 8%max In warehouse Pittsburgh USD/gt-High
+Metals-FeMn-FeMn MC-Price Data-Ferro-manganese Mn 75%min, C 2%max EXW China RMB/mt-High
+Metals-FeMn-FeMn MC-Price Data-Ferro-manganese Mn 78%min, C 1.5%max EXW China RMB/mt-High
+Metals-FeMo-Price Data-Ferro-molybdenum 60%min Delivered India INR/kg-High
+Metals-FeMo-Price Data-Ferro-molybdenum 60%min EXW China RMB/mt-High
+Metals-FeMo-Price Data-Ferro-molybdenum 60%min In port South Korea USD/kg Mo-High
+Metals-FeMo-Price Data-Ferro-molybdenum 60%min In warehouse Russia RUB/kg-High
+Metals-FeMo-Price Data-Ferro-molybdenum 65%min In warehouse Rotterdam USD/kg Mo-High
+Metals-FeMo-Price Data-Ferro-molybdenum 65%min In warehouse US USD/kg Mo-High
+Metals-FeMo-Price Data-Molybdenum Conc. 45%min EXW China RMB/mtu-High
+Metals-FeMo-Price Data-Molybdenum Oxide 50%min EXW China RMB/mtu-High
+Metals-FeMo-Price Data-Molybdenum Oxide 57%min CIF China USD/lb Mo-High
+Metals-FeMo-Price Data-Molybdenum Oxide 57%min In port India USD/lb-High
+Metals-FeMo-Price Data-Molybdenum Oxide 57%min In port South Korea USD/lb-High
+Metals-FeMo-Price Data-Molybdenum Oxide 57%min In warehouse Rotterdam USD/lb-High
+Metals-FeNb-Price Data-Ferro-niobium 50-A EXW China RMB/mt-High
+Metals-FeNb-Price Data-Ferro-niobium 60-A EXW China RMB/mt-High
+Metals-FeNb-Price Data-Ferro-niobium Brazilian 66% Delivered China RMB/mt-High
+Metals-FeNb-Price Data-Ferro-niobium Brazilian 66% In warehouse Rotterdam USD/kg Nb-High
+Metals-FeNb-Price Data-Niobium Conc. Nb2O5 50%min, Ta2O5 5%min, CIF China USD/lb Oxides-High
+Metals-FeNb-Price Data-Niobium Pentoxide 99.5%min EXW China RMB/kg-High
+Metals-FeNb-Price Data-Niobium Pentoxide 99.5%min FOB China USD/kg-High
+Metals-FeNb-Price Data-Niobium Pentoxide 99.99%min EXW China RMB/kg -High
+Metals-FeNb-Price Data-Niobium Pentoxide 99.99%min FOB China USD/kg-High
+Metals-FeNi-Price Data-Ferro-nickel 1.5%min EXW China RMB/mt-High
+Metals-FeNi-Price Data-Ferro-nickel 10%min EXW China RMB/mtu-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 0.8%min CIF China USD/mt-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 0.8%min In port China RMB/mt-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 1.5%min CIF China USD/mt-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 1.5%min In port China RMB/mt-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 1.8%min CIF China USD/mt-High
+Metals-FeNi-Price Data-Nickel Ore Philippine 1.8%min In port China RMB/mt-High
+Metals-FeP-Price Data-Ferro-phosphorus 23%min FOB China USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 65%min EXW China RMB/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 65%min FOB Russia USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 65%min In warehouse Russia RUB/kg-High
+Metals-FeSi-Price Data-Ferro-silicon 70%min EXW India INR/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 72%min Ex-VAT FOB China USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 72%min EXW China RMB/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 72%min FOB China USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 75%min Ex-VAT FOB China USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 75%min EXW China RMB/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 75%min FOB China USD/mt-High
+Metals-FeSi-Price Data-Ferro-silicon 75%min In warehouse Pittsburgh USD/lb Si-High
+Metals-FeSi-Price Data-Ferro-silicon 75%min In warehouse Rotterdam EUR/mt-High
+Metals-FeTi-Price Data-Ferro-titanium 30% EXW China RMB/mt 25-basis-High
+Metals-FeTi-Price Data-Ferro-titanium 30% EXW India INR/kg-High
+Metals-FeTi-Price Data-Ferro-titanium 70% (scrap) EXW China RMB/mt-High
+Metals-FeTi-Price Data-Ferro-titanium 70% In port India INR/kg-High
+Metals-FeTi-Price Data-Ferro-titanium 70%min Delivered US USD/kg Ti-High
+Metals-FeTi-Price Data-Ferro-titanium 70%min EXW Russia RUB/kg-High
+Metals-FeTi-Price Data-Ferro-titanium 70%min FOB Russia USD/kg Ti-High
+Metals-FeTi-Price Data-Ferro-titanium 70%min In warehouse Rotterdam USD/kg Ti-High
+Metals-FeV-Price Data-Ferro-vanadium 50%min CIF China USD/kg V-High
+Metals-FeV-Price Data-Ferro-vanadium 50%min Delivered China RMB/mt-High
+Metals-FeV-Price Data-Ferro-vanadium 50%min In port China RMB/mt-High
+Metals-FeV-Price Data-Ferro-vanadium 50%min In warehouse Russia RUB/kg-High
+Metals-FeV-Price Data-Ferro-vanadium 80% FOB China USD/kg V-High
+Metals-FeV-Price Data-Ferro-vanadium 80%min In warehouse Pittsburgh USD/kg V-High
+Metals-FeV-Price Data-Ferro-vanadium 80%min In warehouse Rotterdam USD/kg V-High
+Metals-FeV-Price Data-Vanadium Nitride N 14%min EXW China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 92%min CIF China USD/lb V2O5-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 92%min In port China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 98%min CIF China USD/lb V2O5-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 98%min EXW China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 98%min In port China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Flake 98%min In warehouse Rotterdam USD/lb V2O5-High
+Metals-FeV-Price Data-Vanadium Pentoxide Powder 98%min EXW China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Powder 99%min EXW China RMB/mt-High
+Metals-FeV-Price Data-Vanadium Pentoxide Powder 99.5%min EXW China RMB/mt-High
+Metals-FeW-Price Data-Ferro-tungsten 70%min EXW China RMB/mt-High
+Metals-FeW-Price Data-Ferro-tungsten 75%min EXW China RMB/mt-High
+Metals-FeW-Price Data-Ferro-tungsten 75%min FOB China USD/kg W-High
+Metals-FeW-Price Data-Ferro-tungsten 75%min FOB Russia USD/kg W-High
+Metals-FeW-Price Data-Ferro-tungsten 75%min In warehouse Rotterdam USD/kg W-High
+Metals-Ga-Ga Metal-Price Data-Gallium Metal 99.99%min EXW China RMB/kg-High
+Metals-Ga-Ga Metal-Price Data-Gallium Metal 99.99%min FOB China USD/kg-High
+Metals-Ge-Ge Dioxide-Price Data-Germanium Dioxide 99.99%min Delivered US USD/kg-High
+Metals-Ge-Ge Dioxide-Price Data-Germanium Dioxide 99.99%min EXW China RMB/kg-High
+Metals-Ge-Ge Dioxide-Price Data-Germanium Dioxide 99.99%min FOB China USD/kg-High
+Metals-Ge-Ge Metal-Price Data-Germanium Metal 99.99%min Delivered Europe USD/kg-High
+Metals-Ge-Ge Metal-Price Data-Germanium Metal 99.99%min Delivered US USD/kg-High
+Metals-Ge-Ge Metal-Price Data-Germanium Metal 99.99%min EXW China RMB/kg-High
+Metals-Ge-Ge Metal-Price Data-Germanium Metal 99.99%min FOB China USD/kg-High
+Metals-Hg-Hg Metal-Price Data-Mercury Metal 99.999%min Ex-VAT EXW China RMB/kg-High
+Metals-In-In Ingot-Price Data-Indium Ingot 99.995%min Delivered Europe USD/kg-High
+Metals-In-In Ingot-Price Data-Indium Ingot 99.995%min Delivered US USD/kg-High
+Metals-In-In Ingot-Price Data-Indium Ingot 99.995%min EXW China RMB/kg-High
+Metals-In-In Ingot-Price Data-Indium Ingot 99.995%min FOB China USD/kg-High
+Metals-Li-LCO-Price Data-Lithium Cobaltate Co 60%min Delivered China RMB/kg-High
+Metals-Li-LFP-Price Data-Lithium Iron Phosphate Li 3.9%min Delivered China RMB/mt-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99%min Delivered China RMB/mt-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99.5%min CIF China USD/kg-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99.5%min Delivered China RMB/mt-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99.5%min Delivered EU USD/kg-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99.5%min Delivered US USD/kg-High
+Metals-Li-Li Carbonate-Price Data-Lithium Carbonate 99.5%min FOB South America USD/kg-High
+Metals-Li-Li Hydroxide-Price Data-Lithium Hydroxide Monohydrate LiOH 56.5%min Delivered China RMB/mt-High
+Metals-Li-Li Hydroxide-Price Data-Lithium Hydroxide Monohydrate LiOH 56.5%min, Magnets 0.0001%max Delivered China RMB/mt-High
+Metals-Li-Li Hydroxide-Price Data-Lithium Hydroxide Monohydrate LiOH 56.5%min, Magnets 0.0001%max Delivered South Korea USD/kg-High
+Metals-Li-Li Hydroxide-Price Data-Lithium Hydroxide Monohydrate LiOH 56.5%min, Magnets 0.0001%max FOB China USD/kg-High
+Metals-Li-Li Metal-Price Data-Lithium Metal 99%min Delivered China RMB/mt-High
+Metals-Li-Li Metal-Price Data-Lithium Metal 99.9%min Delivered China RMB/mt-High
+Metals-Li-Li Metal-Price Data-Spodumene Li2O 6%min CIF China USD/mt-High
+Metals-Li-Lithium Chloride-Price Data-Lithium Chloride 99.3%min Delivered China RMB/mt-High
+Metals-Li-LMO-Price Data-Lithium Manganate Mn 58% Delivered China RMB/mt-High
+Metals-Li-NCM-Price Data-LNCMO 523 Delivered China RMB/kg-High
+Metals-Li-NCM-Price Data-LNCMO 622 Delivered China RMB/kg-High
+Metals-Mg-Mg Alloy-Price Data-Magnesium Alloy AZ91D EXW China RMB/mt-High
+Metals-Mg-Mg Alloy-Price Data-Magnesium Alloy AZ91D FOB China USD/mt-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min Ex-VAT FOB China USD/mt-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min EXW China RMB/mt-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min FOB China USD/mt-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min In port India INR/kg-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min In warehouse Rotterdam USD/mt-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.9%min warehouse Russia RUB/kg-High
+Metals-Mg-Mg Ingot-Price Data-Magnesium Ingot 99.95%min EXW China RMB/mt-High
+Metals-Mg-Mg Powder-Price Data-Magnesium Powder 99.9%min EXW China RMB/mt-High
+Metals-Mg-Mg Powder-Price Data-Magnesium Powder 99.9%min FOB China USD/mt-High
+Metals-Mn Ore-Price Data-Manganese Ore 38%min FOB S.A. USD/dmtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Australian 45%min In Qinzhou Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Australian 45%min In Tianjin Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Brazilian 44%min In Qinzhou Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Brazilian 44%min In Tianjin Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Carbonate, Mn 13%min EXW China RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Gabonese 44%min In Qinzhou Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore Gabonese 44%min In Tianjin Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore S.A. 36%min In Qinzhou Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore S.A. 36%min In Tianjin Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore S.A. 37%min In Qinzhou Port RMB/mtu-High
+Metals-Mn Ore-Price Data-Manganese Ore S.A. 37%min In Tianjin Port RMB/mtu-High
+Metals-Mn-Mn Briquette-Price Data-Manganese Briquette 97%min FOB China USD/mt-High
+Metals-Mn-Mn Dioxide-Price Data-Manganese Dioxide Alkaline 91%min EXW China RMB/mt-High
+Metals-Mn-Mn Dioxide-Price Data-Manganese Dioxide Carbon 91%min EXW China RMB/mt-High
+Metals-Mn-Mn Flake-Price Data-Manganese Flake 99.7%min CIF India USD/mt-High
+Metals-Mn-Mn Flake-Price Data-Manganese Flake 99.7%min Ex-VAT FOB China USD/mt-High
+Metals-Mn-Mn Flake-Price Data-Manganese Flake 99.7%min EXW China RMB/mt-High
+Metals-Mn-Mn Flake-Price Data-Manganese Flake 99.7%min FOB China USD/mt-High
+Metals-Mn-Mn Flake-Price Data-Manganese Flake 99.7%min In warehouse Rotterdam USD/mt-High
+Metals-Mn-Mn Lump-Price Data-Manganese Lump 96.5%min FOB China USD/mt-High
+Metals-Mn-Mn Lump-Price Data-Manganese Lump 96.5%min In warehouse Russia RUB/kg-High
+Metals-Mn-Mn Sulfate-Price Data-Manganese Sulfate Mn 32%min EXW China RMB/t-High
+Metals-Mo-Mo Ammonium Molybdate-Price Data-Sodium Molybdate 99%min EXW China RMB/mt-High
+Metals-Mo-Mo Bar-Price Data-Molybdenum Bar 99.9%min EXW China RMB/kg-High
+Metals-Mo-Mo Conc.-Price Data-Molybdenum Conc. 45%min EXW China RMB/mtu-High
+Metals-Mo-Mo Powder-Price Data-Molybdenum Powder 99.95%min EXW China RMB/kg-High
+Metals-Mo-Mo Sodium Molybdate-Price Data-Ammonium Heptamolybdate 54%min EXW China RMB/mt-High
+Metals-Mo-Mo Sodium Molybdate-Price Data-Ammonium Tetrathiomolybdate 56%min EXW China RMB/mt-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 50%min EXW China RMB/mtu-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 57%min CIF China USD/lb Mo-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 57%min In port India USD/lb-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 57%min In port South Korea USD/lb-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 57%min In warehouse Rotterdam USD/lb-High
+Metals-Mo-Mo Trioxide-Price Data-Molybdenum Oxide 99.9%min EXW China RMB/mt-High
+Metals-Nb-Nb Conc.-Price Data-Niobium Conc. Nb2O5 50%min, Ta2O5 5%min, CIF China USD/lb Oxides-High
+Metals-Nb-Nb Pentoxide-Price Data-Niobium Pentoxide 99.5%min EXW China RMB/kg-High
+Metals-Nb-Nb Pentoxide-Price Data-Niobium Pentoxide 99.5%min FOB China USD/kg-High
+Metals-Nb-Nb Pentoxide-Price Data-Niobium Pentoxide 99.99%min EXW China RMB/kg -High
+Metals-Nb-Nb Pentoxide-Price Data-Niobium Pentoxide 99.99%min FOB China USD/kg-High
+Metals-Ni-Ni Cathode-Price Data-Nickel Cathode 99.96%min EXW China RMB/mt-High
+Metals-Ni-Ni Cathode-Price Data-Nickel Cathode Norilsk 99.96%min In port China RMB/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 0.8%min CIF China USD/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 0.8%min In port China RMB/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 1.5%min CIF China USD/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 1.5%min In port China RMB/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 1.8%min CIF China USD/mt-High
+Metals-Ni-Ni Ore-Price Data-Nickel Ore Philippine 1.8%min In port China RMB/mt-High
+Metals-Ni-Ni Sulfate-Price Data-Nickel Sulfate Ni 22%min; Co 0.05%max EXW China RMB/mt-High
+Metals-Ni-Ni Sulfate-Price Data-Nickel Sulfate Ni 22%min; Co 0.4%max Delivered China RMB/mt-High
+Metals-Pb-Pb Conc.-Price Data-Lead Conc. 60%min EXW China RMB/mt Pb-High
+Metals-Pb-Pb Conc.-Price Data-Lead Conc. TC 50%min CIF China USD/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot 99.994%min In warehouse Guangzhou RMB/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot 99.994%min In warehouse Shanghai RMB/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot Secondary 98%min Ex-VAT EXW China RMB/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot Secondary 98%min EXW China RMB/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot Secondary 99.994%min Ex-VAT EXW China RMB/mt-High
+Metals-Pb-Pb Ingot-Price Data-Lead Ingot Secondary 99.994%min EXW China RMB/mt-High
+Metals-Pb-Pb Scrap-Price Data-Lead Scrap Recycled Deep Cycle Battery Ex-VAT Delivered China RMB/mt-High
+Metals-Pb-Pb Scrap-Price Data-Lead Scrap Recycled Start-type Battery Ex-VAT Delivered China RMB/mt-High
+Metals-Rare Earth-Ce-Ce Metal-Price Data-Cerium Metal 99%min EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Ce Metal-Price Data-Cerium Metal 99%min FOB China USD/kg-High
+Metals-Rare Earth-Ce-Ce Oxide-Price Data-Cerium Oxide 99%min FOB China USD/mt-High
+Metals-Rare Earth-Ce-Ce Oxide-Price Data-Cerium Oxide 99.9%min EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Ce Oxide-Price Data-Cerium Oxide 99.9%min In warehouse Rotterdam USD/kg-High
+Metals-Rare Earth-Ce-Ce Oxide-Price Data-Cerium Oxide 99.99%min EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Cerium Carbonate-Price Data-Cerium Carbonate TREO 45%min, CeO2/REO 100% EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Cerium Carbonate-Price Data-Cerium Carbonate TREO 45%min, CeO2/REO 100% FOB China USD/mt-High
+Metals-Rare Earth-Ce-Price Data-LaCe Carbonate TREO 45%min, CeO2/REO 65±2% EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Price Data-LaCe Chloride TREO 45%min, CeO2/REO 65±2% EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 0.3%max EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 1%max EXW China RMB/mt-High
+Metals-Rare Earth-Ce-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 1%max FOB China USD/kg-High
+Metals-Rare Earth-Dy-Dy Metal-Price Data-Dysprosium Metal 99.5%min EXW China RMB/kg-High
+Metals-Rare Earth-Dy-Dy Metal-Price Data-Dysprosium Metal 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Dy-Dy Oxide-Price Data-Dysprosium Oxide 99.5%min EXW China RMB/kg-High
+Metals-Rare Earth-Dy-Dy Oxide-Price Data-Dysprosium Oxide 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Dy-FeDy-Price Data-Ferro-dysprosium 80% EXW China RMB/kg-High
+Metals-Rare Earth-Dy-FeDy-Price Data-Ferro-dysprosium 80% FOB China USD/kg-High
+Metals-Rare Earth-Er-Er Oxide-Price Data-Erbium Oxide 99.5%min EXW China RMB/kg-High
+Metals-Rare Earth-Er-Er Oxide-Price Data-Erbium Oxide 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Eu-Eu Metal-Price Data-Europium Metal 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Eu-Eu Oxide-Price Data-Europium Oxide 99.999%min EXW China RMB/kg-High
+Metals-Rare Earth-Eu-Eu Oxide-Price Data-Europium Oxide 99.999%min FOB China USD/kg-High
+Metals-Rare Earth-Eu-Price Data-SmEuGd Oxide TREO 220g/L min, Eu2O3/REO 8%min EXW China RMB/mt-High
+Metals-Rare Earth-Eu-YEu Oxide-Price Data-YEu Oxide Eu2O3/REO 6.6%min EXW China RMB/kg-High
+Metals-Rare Earth-Eu-YEu Oxide-Price Data-YEu Oxide Eu2O3/REO 6.6%min FOB China USD/kg-High
+Metals-Rare Earth-Gd-FeGd-Price Data-Ferro-gadolinium Gd 73% EXW China RMB/mt-High
+Metals-Rare Earth-Gd-Gd Oxide-Price Data-Gadolinium Oxide 99.5%min EXW China RMB/mt-High
+Metals-Rare Earth-Gd-Gd Oxide-Price Data-Gadolinium Oxide 99.99%min EXW China RMB/mt-High
+Metals-Rare Earth-Gd-Price Data-SmEuGd Oxide TREO 220g/L min, Eu2O3/REO 8%min EXW China RMB/mt-High
+Metals-Rare Earth-Ho-FeHo-Price Data-Ferro-holmium 80% EXW China RMB/kg-High
+Metals-Rare Earth-Ho-Ho Oxide-Price Data-Holmium Oxide 99.5%min EXW China RMB/kg-High
+Metals-Rare Earth-La-La Metal-Price Data-Lanthanum Metal 99%min EXW China RMB/mt-High
+Metals-Rare Earth-La-La Metal-Price Data-Lanthanum Metal 99%min FOB China USD/kg-High
+Metals-Rare Earth-La-La Oxide-Price Data-Lanthanum Chloride 99.9%min EXW China RMB/mt-High
+Metals-Rare Earth-La-La Oxide-Price Data-Lanthanum Oxide 99.9%min EXW China RMB/mt-High
+Metals-Rare Earth-La-La Oxide-Price Data-Lanthanum Oxide 99.9%min FOB China USD/mt-High
+Metals-Rare Earth-La-La Oxide-Price Data-Lanthanum Oxide 99.999%min EXW China RMB/mt-High
+Metals-Rare Earth-La-La Oxide-Price Data-Lanthanum Oxide 99.999%min FOB China USD/kg-High
+Metals-Rare Earth-La-LaCe Carbonate-Price Data-LaCe Carbonate TREO 45%min, CeO2/REO 65±2% EXW China RMB/mt-High
+Metals-Rare Earth-La-LaCe Chloride-Price Data-LaCe Chloride TREO 45%min, CeO2/REO 65±2% EXW China RMB/mt-High
+Metals-Rare Earth-La-LaCe Mischmetal-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 0.3%max EXW China RMB/mt-High
+Metals-Rare Earth-La-LaCe Mischmetal-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 1%max EXW China RMB/mt-High
+Metals-Rare Earth-La-LaCe Mischmetal-Price Data-LaCe Mischmetal Ce/RE 65%min, Fe 1%max FOB China USD/kg-High
+Metals-Rare Earth-Lu-Lu Oxide-Price Data-Lutetium Oxide 99.99%min China RMB/kg-High
+Metals-Rare Earth-Nd-Nd Metal-Price Data-Neodymium Metal 99%min EXW China RMB/mt-High
+Metals-Rare Earth-Nd-Nd Metal-Price Data-Neodymium Metal 99%min FOB China USD/kg-High
+Metals-Rare Earth-Nd-Nd Oxide-Price Data-Neodymium Oxide 99.5%min EXW China RMB/mt-High
+Metals-Rare Earth-Nd-Nd Oxide-Price Data-Neodymium Oxide 99.5%min FOB China USD/mt-High
+Metals-Rare Earth-Nd-PrNd Mischmetal-Price Data-PrNd Mischmetal Pr 25%, Nd 75% EXW China RMB/mt-High
+Metals-Rare Earth-Nd-PrNd Mischmetal-Price Data-PrNd Mischmetal Pr 25%, Nd 75% FOB China USD/kg-High
+Metals-Rare Earth-Nd-PrNd Oxide-Price Data-PrNd Oxide Pr6O11 25%, Nd2O3 75% EXW China RMB/mt-High
+Metals-Rare Earth-Pr-Pr Metal-Price Data-Praseodymium Metal 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Pr-Pr Oxide-Price Data-Praseodymium Oxide 99.5%min EXW China RMB/mt-High
+Metals-Rare Earth-Pr-Pr Oxide-Price Data-Praseodymium Oxide 99.5%min FOB China USD/mt-High
+Metals-Rare Earth-Pr-Pr Oxide-Price Data-Praseodymium Oxide 99.5%min In warehouse Rotterdam USD/kg-High
+Metals-Rare Earth-Pr-Price Data-PrNd Mischmetal Pr 25%, Nd 75% EXW China RMB/mt-High
+Metals-Rare Earth-Pr-Price Data-PrNd Mischmetal Pr 25%, Nd 75% FOB China USD/kg-High
+Metals-Rare Earth-Pr-Price Data-PrNd Oxide Pr6O11 25%, Nd2O3 75% EXW China RMB/mt-High
+Metals-Rare Earth-Sc-Sc Metal-Price Data-Scandium Metal 99.99%min EXW China RMB/kg-High
+Metals-Rare Earth-Sc-Sc Metal-Price Data-Scandium Metal 99.999%min EXW China RMB/kg-High
+Metals-Rare Earth-Sc-Sc Oxide-Price Data-Scandium Oxide 99.99%min EXW China RMB/kg-High
+Metals-Rare Earth-Sc-ScAl-Price Data-Scandium Aluminum Sc 2% EXW China RMB/kg-High
+Metals-Rare Earth-Sm-Sm Metal-Price Data-Samarium Cobalt 30H EXW China RMB/kg-High
+Metals-Rare Earth-Sm-Sm Metal-Price Data-Samarium Metal 99.5%min EXW China RMB/kg-High
+Metals-Rare Earth-Sm-Sm Metal-Price Data-Samarium Metal 99.5%min FOB China USD/kg-High
+Metals-Rare Earth-Sm-Sm Oxide-Price Data-Samarium Oxide 99.9%min EXW China RMB/mt-High
+Metals-Rare Earth-Sm-Sm Oxide-Price Data-Samarium Oxide 99.9%min FOB China USD/mt-High
+Metals-Rare Earth-Sm-SmEuGd Concentrate-Price Data-SmEuGd Oxide TREO 220g/L min, Eu2O3/REO 8%min EXW China RMB/mt-High
+Metals-Rare Earth-Tb-Tb Metal-Price Data-Terbium Metal 99.9%min EXW China RMB/kg-High
+Metals-Rare Earth-Tb-Tb Metal-Price Data-Terbium Metal 99.9%min FOB China USD/kg-High
+Metals-Rare Earth-Tb-Tb Oxide-Price Data-Terbium Oxide 99.99%min EXW China RMB/kg-High
+Metals-Rare Earth-Tb-Tb Oxide-Price Data-Terbium Oxide 99.99%min FOB China USD/kg-High
+Metals-Rare Earth-Yb-Yb Oxide-Price Data-Ytterbium Oxide 99.99%min EXW China RMB/kg-High
+Metals-Rare Earth-Y-Price Data-YEu Oxide Eu2O3/REO 6.6%min EXW China RMB/kg-High
+Metals-Rare Earth-Y-Price Data-YEu Oxide Eu2O3/REO 6.6%min FOB China USD/kg-High
+Metals-Rare Earth-Y-Y Metal-Price Data-Yttrium Metal 99.9%min EXW China RMB/kg-High
+Metals-Rare Earth-Y-Y Metal-Price Data-Yttrium Metal 99.9%min FOB China USD/kg-High
+Metals-Rare Earth-Y-Y Oxide-Price Data-Yttrium Oxide 99.999%min EXW China RMB/mt-High
+Metals-Rare Earth-Y-Y Oxide-Price Data-Yttrium Oxide 99.999%min FOB China USD/kg-High
+Metals-Rare Earth-Y-Y Oxide-Price Data-Yttrium Oxide 99.999%min In warehouse Rotterdam USD/kg-High
+Metals-Re-Re Perrhenate-Price Data-Rhenium APR 99.99%min EXW China RMB/kg-High
+Metals-Sb-Sb Conc-Price Data-Antimony Conc. 50%min Delivered China RMB/mt Sb-High
+Metals-Sb-Sb Ethylene Glycol-Price Data-Ethylene Glycol Antimony 57%min Delivered China RMB/mt-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.65%min EXW China RMB/mt-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.65%min FOB China USD/mt-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.65%min In port India INR/kg-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.65%min In warehouse Baltimore USD/lb-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.65%min In warehouse Rotterdam USD/mt-High
+Metals-Sb-Sb Ingot-Price Data-Antimony Ingot 99.85%min EXW China RMB/mt-High
+Metals-Sb-Sb Trioxide-Price Data-Antimony Trioxide 99.5%min Delivered China RMB/mt-High
+Metals-Sb-Sb Trioxide-Price Data-Antimony Trioxide 99.5%min FOB China USD/mt-High
+Metals-Sb-Sb Trioxide-Price Data-Antimony Trioxide 99.5%min In warehouse Baltimore USD/lb-High
+Metals-Sb-Sb Trioxide-Price Data-Antimony Trioxide 99.5%min In warehouse Rotterdam EUR/kg-High
+Metals-Sb-Sb Trioxide-Price Data-Antimony Trioxide 99.8%min Delivered China RMB/mt-High
+Metals-Se-Se Dioxide-Price Data-Selenium Dioxide 98%min Delivered China RMB/kg-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.5%min In warehouse Rotterdam USD/lb-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.9%min CIF China USD/lb-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.9%min Delivered China RMB/kg-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.9%min Delivered India INR/kg-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.9%min Delivered US USD/lb-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.9%min FOB Russia USD/kg-High
+Metals-Se-Se Powder-Price Data-Selenium Powder 99.95%min Delivered China RMB/kg-High
+Metals-SiCr-Price Data-Silico-chrome Si 42%min, Cr 30%min EXW China RMB/mt-High
+Metals-SiMn-Price Data-Silico-manganese 60/14 EXW China RMB/mt-High
+Metals-SiMn-Price Data-Silico-manganese 60/14 FOB India USD/mt-High
+Metals-SiMn-Price Data-Silico-manganese 65/17 Delivered Europe EUR/mt-High
+Metals-SiMn-Price Data-Silico-manganese 65/17 EXW China RMB/mt-High
+Metals-SiMn-Price Data-Silico-manganese 65/17 FOB India USD/mt-High
+Metals-SiMn-Price Data-Silico-manganese 65/17 In warehouse Pittsburgh USD/lb-High
+Metals-SiMn-Price Data-Silico-manganese 65/17 In warehouse Russia RUB/kg-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 2-2-02 Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 2-2-02 Ex-VAT FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 2-2-02 FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 Ex-VAT FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 P 50ppm max Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 P 50ppm max Ex-VAT FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 3-3-03 P 50ppm max FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-2-1 Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-4-1 Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-4-1 Delivered Europe EUR/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-4-1 Ex-VAT FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-4-1 FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 4-4-1 In port India INR/kg-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 5-5-3 Delivered China RMB/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 5-5-3 Delivered Europe EUR/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 5-5-3 Ex-VAT FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 5-5-3 FOB China USD/mt-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 5-5-3 In port India INR/kg-High
+Metals-Si-Si Metal-Price Data-Silicon Metal 98.5%min Delivered US USD/lb-High
+Metals-Si-Si Polysilicon-Price Data-Polysilicon 6N Delivered China RMB/kg-High
+Metals-Sn-Sn Conc.-Price Data-Tin Conc. 60%min Delivered China RMB/mtm-High
+Metals-Sn-Sn Conc.-Price Data-Tin Conc. Burmese 20%min In warehouse MengA RMB/mtm-High
+Metals-Sn-Sn Conc.-Price Data-Tin Conc. Burmese 30%min In warehouse MengA RMB/mtm-High
+Metals-Sn-Sn Ingot-Price Data-Tin Ingot 99.9%min EXW China RMB/mt-High
+Metals-Sn-Sn Solder Bar-Price Data-Tin Solder Bar Sn 40%min, Pb 59%max EXW China RMB/kg-High
+Metals-Sn-Sn Solder Bar-Price Data-Tin Solder Bar Sn 60%min, Pb 39%max EXW China RMB/kg-High
+Metals-Sn-Sn Solder Wire-Price Data-Tin Solder Wire Sn 99%min, Ag 0.3%min, Cu 0.7%max EXW China RMB/kg-High
+Metals-Sn-Sn Solder Wire-Price Data-Tin Solder Wire Sn 99%min, Cu 0.7%max EXW China RMB/kg-High
+Metals-Sr-Sr Metal-Price Data-Strontium Metal 99%min EXW China RMB/mt-High
+Metals-Sr-Sr Metal-Price Data-Strontium Metal 99%min FOB China USD/mt-High
+Metals-Ta-Ta Conc.-Price Data-Tantalum Conc. Ta2O5 30%min CIF China USD/lb Ta2O5-High
+Metals-Ta-Ta Conc.-Price Data-Tantalum Conc. Ta2O5 30%min in warehouse Rotterdam USD/lb Ta2O5-High
+Metals-Ta-Ta Metal-Price Data-Tantalum Metal 99.95%min Delivered US USD/kg-High
+Metals-Ta-Ta Metal-Price Data-Tantalum Metal 99.95%min EXW China RMB/kg-High
+Metals-Ta-Ta Metal-Price Data-Tantalum Metal 99.95%min FOB China USD/kg-High
+Metals-Ta-Ta Pentoxide-Price Data-Tantalum Pentoxide 99.5%min EXW China RMB/kg-High
+Metals-Ta-Ta Pentoxide-Price Data-Tantalum Pentoxide 99.5%min FOB China USD/kg-High
+Metals-Ta-Ta Pentoxide-Price Data-Tantalum Pentoxide 99.99%min EXW China RMB/kg -High
+Metals-Ta-Ta Pentoxide-Price Data-Tantalum Pentoxide 99.99%min FOB China USD/kg-High
+Metals-Te-Te Metal-Price Data-Tellurium Metal 99.9%min In warehouse Rotterdam USD/kg-High
+Metals-Te-Te Metal-Price Data-Tellurium Metal 99.99%min EXW China RMB/kg-High
+Metals-Te-Te Metal-Price Data-Tellurium Metal 99.99%min In warehouse Rotterdam USD/kg-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc Australian TiO2 55-58%min, Fe 27%min CIF China USD/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc Kenyan TiO2 48%min, Fe2O3 20%max CIF China USD/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc Mozambican TiO2 52%min, Fe2O3 25%max CIF China USD/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc TiO2 46%min; Fe2O3 8%max; Ex-VAT EXW China RMB/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc TiO2 50%min; Fe 30%min; In port China RMB/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc TiO2 50%min; Fe2O3 14%max; In port China RMB/mt-High
+Metals-Ti-Ti Ilmenite Conc-Price Data-Ilmenite Conc TiO2 52%min, Fe2O3 25%max FOB Vietnam USD/mt-High
+Metals-Ti-Ti Oxide-Price Data-Titanium Dioxide A TiO2 98%min EXW China RMB/mt-High
+Metals-Ti-Ti Oxide-Price Data-Titanium Dioxide R TiO2 93%min EXW China RMB/mt -High
+Metals-Ti-Ti Oxide-Price Data-Titanium Dioxide R TiO2 93%min FOB China USD/mt -High
+Metals-Ti-Ti Reduced Ilmenite-Price Data-Reduced Ilmenite TiO2 56%min EXW China RMB/mt-High
+Metals-Ti-Ti Rutile Conc-Price Data-Rutile Conc TiO2 95%min In port China RMB/mt-High
+Metals-Ti-Ti Sheet-Price Data-Titanium Plate TA2 2mm EXW China RMB/kg-High
+Metals-Ti-Ti Slag-Price Data-Titanium Slag TiO2 74%min EXW China RMB/mt-High
+Metals-Ti-Ti Slag-Price Data-Titanium Slag TiO2 90%min EXW China RMB/mt-High
+Metals-Ti-Ti Sponge-Price Data-Titanium Sponge 99.7%min EXW China RMB/mt-High
+Metals-Ti-Ti Tetrachloride-Price Data-Titanium Tetrachloride 99.99%min EXW China RMB/mt-High
+Metals-Ti-Ti Tube-Price Data-Titanium Pipe TA2 25.4x1mm EXW China RMB/kg-High
+Metals-V-Ammonium Metavanadate-Price Data-Ammonium Metavanadate 98%min EXW China RMB/mt-High
+Metals-V-V Nitride-Price Data-Vanadium Nitride N 14%min EXW China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 92%min CIF China USD/lb V2O5-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 92%min In port China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 98%min CIF China USD/lb V2O5-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 98%min EXW China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 98%min In port China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Flake 98%min In warehouse Rotterdam USD/lb V2O5-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Powder 98%min EXW China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Powder 99%min EXW China RMB/mt-High
+Metals-V-V Pentoxide Flake-Price Data-Vanadium Pentoxide Powder 99.5%min EXW China RMB/mt-High
+Metals-W-W APT-Price Data-Tungsten APT 88.5%min EXW China RMB/mt-High
+Metals-W-W APT-Price Data-Tungsten APT 88.5%min FOB China USD/mtu-High
+Metals-W-W APT-Price Data-Tungsten APT 88.5%min In warehouse Rotterdam USD/mtu-High
+Metals-W-W BTO-YTO-Price Data-Tungsten Oxide WO3 99.95%min EXW China RMB/mt-High
+Metals-W-W BTO-YTO-Price Data-Tungsten Oxide WO3 99.95%min FOB China USD/mtu-High
+Metals-W-W Conc.-Price Data-Tungsten Ore WO3 50%min FOB Africa USD/mtu-High
+Metals-W-W Conc.-Price Data-Tungsten Ore WO3 65%min EXW China RMB/mt-High
+Metals-W-W Electrode-Price Data-Thorium Tungsten Electrode ThO2 1.7-2.2% EXW China RMB/kg-High
+Metals-W-W Powder-Price Data-Tungsten Carbide 99.8%min 2.5-7.0μm EXW China RMB/kg-High
+Metals-W-W Powder-Price Data-Tungsten Carbide 99.8%min 2.5-7.0μm FOB China USD/kg-High
+Metals-W-W Powder-Price Data-Tungsten Powder 99.95%min 2.5-7.0μm EXW China RMB/kg -High
+Metals-W-W Rod-Price Data-Tungsten Bar W-4 99.9%min EXW China RMB/kg-High
+Metals-W-W Rod-Price Data-Tungsten Bar W-4 99.9%min FOB China USD/kg-High
+Metals-W-W Scrap-Price Data-Tungsten Scrap Anvil 90%min Ex-VAT Delivered China RMB/kg-High
+Metals-W-W Scrap-Price Data-Tungsten Scrap CNC Cutting Blades 70%min Ex-VAT Delivered China RMB/kg-High
+Metals-W-W Scrap-Price Data-Tungsten Scrap Drills 70%min Ex-VAT Delivered China RMB/kg-High
+Metals-W-W Scrap-Price Data-Tungsten Scrap Grinding Swarf W 70%min, Co 5%min Ex-VAT Delivered China RMB/mtu-High
+Metals-W-W Sodium Tungstate-Price Data-Sodium Tungstate WO3 68%min EXW China RMB/mt-High
+Metals-Zn-Zn Conc.-Price Data-Zinc Conc. 50%min EXW South China RMB/mt Zn-High
+Metals-Zn-Zn Conc.-Price Data-Zinc Conc. 55%min EXW North China RMB/mt Zn-High
+Metals-Zn-Zn Conc.-Price Data-Zinc Conc. TC 50% CIF China USD/mt-High
+Metals-Zn-Zn Die-casting Alloy-Price Data-Zinc Die-casting Alloy Zamak-3 EXW China RMB/mt-High
+Metals-Zn-Zn Die-casting Alloy-Price Data-Zinc Die-casting Alloy Zamak-5 EXW China RMB/mt-High
+Metals-Zn-Zn Ingot-Price Data-Zinc Ingot 99.99%min EXW China RMB/mt-High
+Metals-Zn-Zn Ingot-Price Data-Zinc Ingot 99.995%min In warehouse Guangzhou RMB/mt-High
+Metals-Zn-Zn Ingot-Price Data-Zinc Ingot 99.995%min In warehouse Shanghai RMB/mt-High
+Metals-Zn-Zn Oxide-Price Data-Zinc Oxide 99.7%min EXW China RMB/mt-High
+Metals-Zn-Zn Powder-Price Data-Zinc Powder 96%min 325mesh EXW China RMB/mt-High
+Metals-Zr-Zr Carbonate-Price Data-Zirconium Carbonate Zr(Hf)O2 40%min EXW China RMB/mt-High
+Metals-Zr-Zr Carbonate-Price Data-Zirconium Carbonate Zr(Hf)O2 40%min, Cl 50ppm EXW China RMB/mt-High
+Metals-Zr-Zr Fused Zirconia-Price Data-Fused Zirconia Zr(Hf)O2 98.5%min EXW China RMB/mt-High
+Metals-Zr-Zr Oxychloride-Price Data-Zirconium Oxychloride Zr(Hf)O2 36%min EXW China RMB/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand Australian Zr(Hf)O2 66%min In port China RMB/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand Australian Zr(Hf)O2 66%min In port China USD/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand Indonesian Zr(Hf)O2 66%min CIF China USD/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand S.A. Zr(Hf)O2 65%min In port China RMB/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand S.A. Zr(Hf)O2 65%min In port China USD/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand S.A. Zr(Hf)O2 66%min In port China USD/mt-High
+Metals-Zr-Zr Sand-Price Data-Zircon Sand Zr(Hf)O2 65%min EXW China RMB/mt-High
+Metals-Zr-Zr Silicate-Price Data-Zirconium Silicate Zr(Hf)O2 64.5%min EXW China RMB/mt-High
+Metals-Zr-Zr Sponge-Price Data-Zirconium Sponge Zr+Hf 99.4%min EXW China RMB/kg-High
+Minerals-Calcined Bauxite-Price Data-Calcined Bauxite 85%min 1-3mm EXW China RMB/mt-High
+Minerals-Calcined Bauxite-Price Data-Calcined Bauxite 86%min 1-3mm FOB China USD/mt-High
+Minerals-Calcined Bauxite-Price Data-Calcined Bauxite 87%min 1-3mm EXW China RMB/mt-High
+Minerals-Carbon-Calcined Pet Coke-Price Data-Calcined Pet Coke S 3%max EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode H.P. D300mm FOB China USD/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode H.P. D400mm EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode H.P. D450mm FOB China USD/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode H.P. D500mm EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode R.P. D400mm EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode U.H.P. D500mm EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode U.H.P. D500mm FOB China USD/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode U.H.P. D600mm EXW China RMB/mt-High
+Minerals-Carbon-Graphite Electrode-Price Data-Graphite Electrode U.H.P. D600mm FOB China USD/mt-High
+Minerals-Carbon-Petroleum Coke-Price Data-Pet Coke S 2%max EXW China RMB/mt-High
+Minerals-Carbon-Petroleum Coke-Price Data-Pet Coke S 3%max EXW China RMB/mt-High
+Minerals-Carbon-Pitch-Price Data-Coal Tar Pitch Coking Value 53%min EXW China RMB/mt-High
+Minerals-Carbon-Prebaked Anode-Price Data-Prebaked Anode S 3%max EXW China RMB/mt-High
+Minerals-Carbon-Prebaked Anode-Price Data-Prebaked Anode S 3%max FOB China USD/mt-High
+Minerals-Fluorspar-Price Data-Fluorspar 97%min Delivered China RMB/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 1-3mm EXW China RMB/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 1-3mm EXW India INR/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 1-3mm FOB China USD/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 1-3mm In warehouse Rotterdam EUR/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 36mesh EXW China RMB/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 36mesh EXW India INR/mt-High
+Minerals-Fused Alumina-Brown Fused Alumin-Price Data-Fused Alumina Brown 95%min 36mesh FOB China USD/mt-High
+Minerals-Fused Alumina-White Fused Alumina-Price Data-Fused Alumina White 99%min 1-3mm EXW China RMB/mt-High
+Minerals-Fused Alumina-White Fused Alumina-Price Data-Fused Alumina White 99%min 1-3mm FOB China USD/mt-High
+Minerals-Fused Alumina-White Fused Alumina-Price Data-Fused Alumina White 99%min 1-3mm In warehouse Rotterdam EUR/mt-High
+Minerals-Fused Alumina-White Fused Alumina-Price Data-Fused Alumina White 99%min F36 EXW China RMB/mt-High
+Minerals-Fused Alumina-White Fused Alumina-Price Data-Fused Alumina White 99%min F36 FOB China USD/mt-High
+Minerals-Graphite-Amorphous Graphite-Price Data-Amorphous Graphite 75%min 0-3mm EXW China RMB/mt-High
+Minerals-Graphite-Amorphous Graphite-Price Data-Amorphous Graphite 80%min 200mesh min EXW China RMB/mt-High
+Minerals-Graphite-Amorphous Graphite-Price Data-Amorphous Graphite 80%min 20-50mm EXW China RMB/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite +195 EXW China RMB/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite +895 EXW China RMB/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite -190 EXW China RMB/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite -194 EXW China RMB/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite -194 FOB China USD/mt-High
+Minerals-Graphite-Flake Graphite-Price Data-Flake Graphite -199 EXW China RMB/mt-High
+Minerals-Graphite-Spherical Graphite-Price Data-Spherical Graphite 99.95%min 17μm max EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Caustic Calcined-Price Data-Magnesia C.C. 90%min 200mesh EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Caustic Calcined-Price Data-Magnesia C.C. 90%min 200mesh FOB China USD/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 90%min 3-15mm EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 90%min 3-15mm FOB China USD/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 90%min 3-15mm In warehouse Rotterdam EUR/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 95%min 0-30mm EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 95%min 0-30mm FOB China USD/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 95%min 0-30mm In warehouse Rotterdam EUR/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 96.5%min 0-30mm EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 97%min 0-30mm EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Dead Burned-Price Data-Magnesia D.B. 97%min 0-30mm FOB China USD/mt-High
+Minerals-Magnesia-Magnesia Fused-Price Data-Magnesia E.F. 97%min EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Fused-Price Data-Magnesia E.F. 97%min H-Ca EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Fused-Price Data-Magnesia E.F. 97%min H-Ca FOB China USD/mt-High
+Minerals-Magnesia-Magnesia Fused-Price Data-Magnesia E.F. 97.5%min Large Crystal EXW China RMB/mt-High
+Minerals-Magnesia-Magnesia Fused-Price Data-Magnesia E.F. 97.5%min Large Crystal FOB China USD/mt-High
+Minerals-Magnesia-Magnesite-Price Data-Magnesite Lump 47%min EXW China RMB/mt-High
+Minerals-Magnesia-Magnesite-Price Data-Magnesite Pellet 47%min EXW China RMB/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 88%min 0-10mm Delivered Europe EUR/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 88%min 0-10mm EXW China RMB/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 88%min 0-10mm FOB China USD/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 98%min 10-30cm EXW China RMB/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 98%min F16-100 EXW China RMB/mt-High
+Minerals-SiC-SiC Black-Price Data-Silicon Carbide Black 98%min F16-100 FOB China USD/mt-High
+Minerals-SiC-SiC Green-Price Data-Silicon Carbide Green 98%min F240 EXW China RMB/mt-High
+Minerals-SiC-SiC Green-Price Data-Silicon Carbide Green 98%min F240 FOB China USD/mt-High
+Minerals-SiC-SiC Green-Price Data-Silicon Carbide Green 98%min JIS2000 EXW China RMB/mt-High
+Minerals-SiC-SiC Green-Price Data-Silicon Carbide Green 98%min JIS2000 FOB China USD/mt-High
+Minerals-SiC-SiC Green-Price Data-Silicon Carbide Green 98.5%min 10-30cm EXW China RMB/mt-High
+Steel-Coal-Price Data-Coking Coal 10.5%max, V 20%max EXW Shanxi RMB/mt-High
+Steel-Coal-Price Data-Coking Coal A 10%max, V 26%max EXW Hebei RMB/mt-High
+Steel-Coal-Price Data-Coking Coal A 10%max, V 26%max EXW Henan RMB/mt-High
+Steel-Cold Heading Steel-Price Data-Cold Heading Wire 22A Φ6.5mm In warehouse Shanghai RMB/mt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine 65%min Ex-VAT EXW Daixian RMB/wt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine 65%min EXW Benxi RMB/dt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine 65%min EXW Laiwu RMB/dt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine 66%min Ex-VAT EXW Handan RMB/dt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine Australian 58% In port China RMB/wt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine Australian 62%min CNF China USD/dt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine Australian 62%min In port China RMB/wt-High
+Steel-Iron Ore-Price Data-Iron Ore Fine Brazilian 65%min In port China RMB/wt-High
+Steel-Iron Ore-Price Data-Iron Ore Lump Australian 62%min In port China RMB/wt-High
+Steel-Iron-Cast Iron-Price Data-Cast Iron Z18-22 EXW China RMB/mt-High
+Steel-Iron-Ductile Cast Iron-Price Data-S.G. Cast Iron Q10-12 EXW China RMB/mt-High
+Steel-Iron-Pig Iron-Price Data-Pig Iron L8-10 EXW China RMB/mt-High
+Steel-Silicon Steel-Price Data-Electrical Steel Grain Oriented 130 0.3*980mm In warehouse China RMB/mt-High
+Steel-Silicon Steel-Price Data-Electrical Steel Non-grain 470 0.5*1200mm In warehouse China RMB/mt-High
+Steel-Silicon Steel-Price Data-Electrical Steel Non-grain 800 0.5*1,200mm In warehouse China RMB/mt-High
+Steel-Stainless Bar-Price Data-Stainless Bar 304 60mm In warehouse Dainan RMB/mt-High
+Steel-Stainless Bar-Price Data-Stainless Bar 321 60mm In warehouse Dainan RMB/mt-High
+Steel-Stainless Pipe-Price Data-Stainless Seamless Pipe 304 108*4mm In warehouse Wenzhou RMB/mt-High
+Steel-Stainless Scrap-Price Data-Stainless Scrap 304 Solid In warehouse Dainan RMB/mt-High
+Steel-Stainless Sheet-Price Data-Stainless CR Coil 201/2B 1.0mm In warehouse China RMB/mt-High
+Steel-Stainless Sheet-Price Data-Stainless CR Coil 304/2B 1.0mm In warehouse China RMB/mt-High
+Steel-Stainless Sheet-Price Data-Stainless CR Coil 430/2B 1.0mm In warehouse China RMB/mt-High
+Steel-Stainless Sheet-Price Data-Stainless HR Coil 201/No.1 6.0mm In warehouse China RMB/mt-High
+Steel-Stainless Sheet-Price Data-Stainless HR Coil 304/No.1 6.0mm In warehouse China RMB/mt-High
+Steel-Steel Billet-Price Data-Steel Billet HRB335 150x150mm EXW China RMB/mt-High
+Steel-Steel Billet-Price Data-Steel Billet Q235 150x150mm EXW China RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 0.5mm FOB China USD/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 0.5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 0.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 0.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 1.0mm FOB China USD/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 1.0mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 1.0mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil DX51D 1.0mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Coated-Price Data-HGI Coil IS513 0.5mm In warehouse Mumbai INR/mt-High
+Steel-Steel CR-Price Data-CR Coil IS513 1.0mm In warehouse Mumbai INR/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 0.5mm FOB China USD/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 0.5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 0.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 0.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm FOB China USD/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm In warehouse HaNoi VND/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm In warehouse Shanghai RMB/mt-High
+Steel-Steel CR-Price Data-CR Coil SPCC 1.0mm In warehouse Tianjin RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil IS2062 3.0mm In warehouse Mumbai INR/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 2.75mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 2.75mm In warehouse Shanghai RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 2.75mm In warehouse Tianjin RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 5.5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 5.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil Q235B 5.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel HR-Price Data-HR Coil SS400 2.75mm FOB China USD/mt-High
+Steel-Steel HR-Price Data-HR Coil SS400 3.0mm In warehouse Bangkok THB/mt-High
+Steel-Steel HR-Price Data-HR Coil SS400 3.0mm In warehouse HaNoi VND/mt-High
+Steel-Steel HR-Price Data-HR Coil SS400 3.0mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel HR-Price Data-HR Coil SS400 5.5mm FOB China USD/mt-High
+Steel-Steel Pipe-Price Data-Seamless Pipe 20# Ф219*6mm GB8163 In warehouse Guangzhou RMB/mt-High
+Steel-Steel Pipe-Price Data-Seamless Pipe 20# Ф219*6mm GB8163 In warehouse Shanghai RMB/mt-High
+Steel-Steel Pipe-Price Data-Seamless Pipe 20# Ф219*6mm GB8163 In warehouse Tianjin RMB/mt-High
+Steel-Steel Pipe-Price Data-Welded Pipe Q235 Ф114*3.75mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Pipe-Price Data-Welded Pipe Q235 Ф114*3.75mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate IS2062 16mm In warehouse Mumbai INR/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 10mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 10mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 10mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 16mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 16mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate Q235B 16mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate SS400 10mm FOB China USD/mt-High
+Steel-Steel Plate-Price Data-Medium Plate SS400 16mm FOB China USD/mt-High
+Steel-Steel Plate-Price Data-Medium Plate SS400 16mm In warehouse Bangkok THB/mt-High
+Steel-Steel Plate-Price Data-Medium Plate SS400 16mm In warehouse HaNoi VND/mt-High
+Steel-Steel Plate-Price Data-Medium Plate SS400 16mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel Rebar-Price Data-Rebar BS4449 GR500 12mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel Rebar-Price Data-Rebar BS4449 GR500 16mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel Rebar-Price Data-Rebar HRB400 12mm FOB China USD/mt-High
+Steel-Steel Rebar-Price Data-Rebar HRB400 20mm FOB China USD/mt-High
+Steel-Steel Rebar-Price Data-Rebar HRB400 20mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Rebar-Price Data-Rebar HRB400 20mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Rebar-Price Data-Rebar HRB400 20mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Rebar-Price Data-TMT Bar Fe500 12mm In warehouse Mumbai INR/mt-High
+Steel-Steel Rebar-Price Data-TMT Bar Fe500 16mm In warehouse Mumbai INR/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap HMS 4-6mm EXW Shandong RMB/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap HMS 8mm min EXW Wuxi RMB/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap MMS 4-6mm EXW Guangzhou RMB/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap MMS 4-6mm EXW Tianjin RMB/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap MMS 6-10mm EXW Liaoning RMB/mt-High
+Steel-Steel Scrap-Price Data-Steel Scrap Process Scrap Delivered China RMB/mt -High
+Steel-Steel Section-Price Data-Angle Steel Q235 50*50*5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Section-Price Data-Angle Steel Q235 50*50*5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Section-Price Data-Angle Steel Q235 50*50*5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Section-Price Data-Channel Steel Q235 160*65*8.5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Section-Price Data-Channel Steel Q235 160*65*8.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Section-Price Data-Channel Steel Q235 160*65*8.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 200*200mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 200*200mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 200*200mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 300*300mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 300*300mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Section-Price Data-H-beam Steel Q235 300*300mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Section-Price Data-I-beam Steel Q235 250*118*10mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Section-Price Data-I-beam Steel Q235 250*118*10mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Section-Price Data-I-beam Steel Q235 250*118*10mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q195 295*2.5mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q195 295*2.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q195 295*2.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q195 685*2.75mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q235B 685*5.5mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Strip-Price Data-HR Strip Q235B 685*5.5mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod Q195 6.5mm FOB China USD/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod Q235 8mm In warehouse Guangzhou RMB/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod Q235 8mm In warehouse Shanghai RMB/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod Q235 8mm In warehouse Tianjin RMB/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod SAE1008 5.5mm In warehouse Kuala Lumpur MYR/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod SAE1008 5.5mm In warehouse Mumbai INR/mt-High
+Steel-Steel Wire Rod-Price Data-Wire Rod SAE1008 6.5mm FOB China USD/mt-High
