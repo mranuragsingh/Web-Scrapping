@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Metal Trends — Asian Metal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<style>
+  /* ============================================================
+     Design tokens — calm pastel CRM
+     Warm cream surface, sage-green primary accent, muted forest /
+     terracotta for positive / negative change. Single sans (Manrope)
+     plus one editorial serif (Instrument Serif) for the brand mark.
+     ============================================================ */
+  :root {
+    --bg: #f5f3ed;
+    --bg-soft: #ede9df;
+    --card: #ffffff;
+    --card-2: #fbfaf5;
+
+    --ink: #1d2129;
+    --ink-2: #4a5560;
+    --muted: #8b939d;
+    --muted-2: #b2b6bd;
+
+    --line: #ebe8df;
+    --line-2: #f3f0e6;
+
+    --sage: #6b8e7b;
+    --sage-deep: #527063;
+    --sage-soft: #e6ede8;
+    --sage-tint: #eff3ef;
+
+    --up: #4f7c5c;
+    --up-soft: #e7efe9;
+    --down: #b8654f;
+    --down-soft: #f3e3dd;
+
+    --shadow-sm: 0 1px 2px rgba(29, 33, 41, .04), 0 1px 3px rgba(29, 33, 41, .03);
+    --shadow-md: 0 2px 4px rgba(29, 33, 41, .04), 0 6px 14px rgba(29, 33, 41, .05);
+    --shadow-lg: 0 8px 28px rgba(29, 33, 41, .10), 0 18px 50px rgba(29, 33, 41, .14);
+
+    --radius-sm: 8px;
+    --radius: 12px;
+    --radius-lg: 16px;
+
+    --sidebar-w: 260px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Soft atmospheric wash anchored to the top of the page. */
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(900px 600px at 90% -10%, rgba(107, 142, 123, .12), transparent 60%),
+      radial-gradient(700px 500px at -10% 30%, rgba(184, 101, 79, .055), transparent 65%);
+  }
+
+  /* ============================================================
+     Layout shell
+     ============================================================ */
+  .app {
+    position: relative; z-index: 1;
+    display: grid;
+    grid-template-columns: var(--sidebar-w) 1fr;
+    min-height: 100vh;
+  }
+
+  /* ----- Sidebar ----- */
+  .sidebar {
+    border-right: 1px solid var(--line);
+    padding: 28px 20px 24px;
+    background: rgba(255, 255, 255, .42);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+
+  .brand {
+    display: flex; flex-direction: column; gap: 4px;
+    padding-bottom: 22px; margin-bottom: 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand-title {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 30px; line-height: 1; letter-spacing: -.01em;
+    color: var(--ink); margin: 0;
+  }
+  .brand-title em {
+    font-style: italic; color: var(--sage-deep);
+  }
+  .brand-sub {
+    font-size: 12px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .12em;
+    font-weight: 500; margin: 4px 0 0;
+  }
+
+  .nav-section {
+    margin-bottom: 22px;
+  }
+  .nav-section h3 {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .12em; color: var(--muted);
+    margin: 0 0 10px 4px;
+  }
+  .nav-list { list-style: none; padding: 0; margin: 0; }
+  .nav-list li {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 9px 12px;
+    border-radius: 10px;
+    font-weight: 500; color: var(--ink-2);
+    cursor: pointer;
+    transition: background .14s ease, color .14s ease;
+    margin-bottom: 2px;
+  }
+  .nav-list li:hover { background: var(--sage-tint); color: var(--ink); }
+  .nav-list li.active {
+    background: var(--sage-soft); color: var(--sage-deep);
+    font-weight: 600;
+  }
+  .nav-list .count {
+    font-size: 11px;
+    background: var(--bg-soft);
+    color: var(--muted);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .nav-list li.active .count {
+    background: rgba(82, 112, 99, .15);
+    color: var(--sage-deep);
+  }
+
+  .side-foot {
+    position: sticky; bottom: -24px;
+    margin: 24px -20px -24px; padding: 14px 24px 24px;
+    background: linear-gradient(to top, var(--bg) 40%, transparent);
+    font-size: 11.5px; color: var(--muted); line-height: 1.55;
+  }
+
+  /* ----- Main content ----- */
+  .content {
+    padding: 28px 36px 60px;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .topbar {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 24px; flex-wrap: wrap; margin-bottom: 24px;
+  }
+  .topbar .title h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 26px; font-weight: 700; letter-spacing: -.015em;
+    color: var(--ink); margin: 0 0 4px;
+  }
+  .topbar .title p {
+    margin: 0; color: var(--muted); font-size: 13.5px;
+  }
+  .topbar .title strong { color: var(--ink-2); font-weight: 600; }
+
+  /* "Sample data" pill — surfaces when the inline fallback CSV is in use
+     because fetch("prices.csv") couldn't reach a real file. */
+  .sample-pill {
+    display: inline-block; vertical-align: 4px;
+    margin-left: 10px; padding: 3px 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10.5px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .08em;
+    color: var(--down); background: var(--down-soft);
+    border-radius: 999px;
+  }
+
+  .controls {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .field {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 7px 12px 7px 14px;
+    box-shadow: var(--shadow-sm);
+    transition: border-color .14s ease, box-shadow .14s ease;
+  }
+  .field:focus-within {
+    border-color: var(--sage); box-shadow: 0 0 0 3px var(--sage-soft);
+  }
+  .field label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); font-weight: 600;
+  }
+  .field select, .field input {
+    border: 0; outline: 0; background: transparent;
+    font: inherit; color: var(--ink); padding: 2px 4px;
+  }
+  .field input { min-width: 200px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--sage); color: #fff; border: 0;
+    padding: 10px 18px; border-radius: 10px;
+    font: inherit; font-weight: 600; cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background .14s ease, transform .14s ease, box-shadow .14s ease;
+  }
+  .btn:hover { background: var(--sage-deep); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+  .btn:active { transform: translateY(0); }
+  .btn:disabled {
+    background: var(--bg-soft); color: var(--muted);
+    cursor: not-allowed; transform: none; box-shadow: none;
+  }
+  .btn-ghost {
+    background: transparent; color: var(--ink-2);
+    border: 1px solid var(--line);
+  }
+  .btn-ghost:hover { background: var(--card); color: var(--ink); }
+
+  /* ----- KPI strip ----- */
+  .kpis {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 14px; margin-bottom: 22px;
+  }
+  .kpi {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    display: flex; flex-direction: column; gap: 4px;
+    transition: transform .18s ease, box-shadow .18s ease;
+    opacity: 0; transform: translateY(8px);
+    animation: rise .5s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  .kpi:nth-child(1) { animation-delay: .04s; }
+  .kpi:nth-child(2) { animation-delay: .10s; }
+  .kpi:nth-child(3) { animation-delay: .16s; }
+  .kpi:nth-child(4) { animation-delay: .22s; }
+  .kpi:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+  .kpi-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--muted); font-weight: 600;
+  }
+  .kpi-value {
+    font-size: 24px; font-weight: 700; color: var(--ink);
+    font-variant-numeric: tabular-nums; letter-spacing: -.01em;
+    margin-top: 2px;
+  }
+  .kpi-value.up { color: var(--up); }
+  .kpi-value.down { color: var(--down); }
+  .kpi-sub {
+    font-size: 12.5px; color: var(--muted); margin-top: 2px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+
+  @keyframes rise {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ----- Table card ----- */
+  .table-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    opacity: 0; transform: translateY(8px);
+    animation: rise .55s .26s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  .card-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; flex-wrap: wrap;
+    padding: 16px 22px; border-bottom: 1px solid var(--line-2);
+  }
+  .card-head h3 {
+    margin: 0; font-size: 15px; font-weight: 700; color: var(--ink);
+    letter-spacing: -.005em;
+  }
+  .card-head .meta {
+    font-size: 12.5px; color: var(--muted);
+  }
+  .card-head .meta strong { color: var(--ink-2); font-weight: 600; }
+
+  .table-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+
+  thead th {
+    position: sticky; top: 0;
+    background: var(--card-2);
+    text-align: left; padding: 12px 16px;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  thead th.num { text-align: right; }
+  thead th.col-idx { width: 48px; text-align: center; }
+
+  /* Sortable column headers — click to sort, arrow indicates direction. */
+  thead th.sortable {
+    cursor: pointer; user-select: none;
+    transition: color .12s ease, background .12s ease;
+  }
+  thead th.sortable:hover { color: var(--ink-2); background: var(--sage-tint); }
+  thead th.sortable.active { color: var(--sage-deep); }
+  .sort-arrow {
+    display: inline-block; margin-left: 5px;
+    font-size: 11px; opacity: .35;
+    transition: opacity .12s ease;
+  }
+  thead th.sortable.active .sort-arrow { opacity: 1; }
+
+  tbody td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line-2);
+    vertical-align: middle;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr {
+    transition: background .12s ease;
+  }
+  tbody tr.clk { cursor: pointer; }
+  tbody tr.clk:hover { background: var(--sage-tint); }
+  td.num {
+    text-align: right; font-variant-numeric: tabular-nums;
+    white-space: nowrap; font-weight: 500;
+  }
+  td.col-idx {
+    text-align: center; color: var(--muted-2);
+    font-variant-numeric: tabular-nums; font-weight: 500;
+  }
+
+  .prod-name {
+    display: block; font-weight: 700; color: var(--ink);
+    font-size: 14px; letter-spacing: -.005em;
+  }
+  .prod-sub {
+    display: block; color: var(--ink-2); font-size: 12.5px;
+    margin-top: 2px;
+  }
+  .prod-tags {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px;
+  }
+  .tag {
+    font-size: 10.5px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .05em;
+    color: var(--ink-2);
+    background: var(--bg-soft);
+    padding: 2px 8px; border-radius: 999px;
+  }
+  .tag.country { background: var(--sage-soft); color: var(--sage-deep); }
+  .stale {
+    display: inline-block; margin-top: 4px; font-size: 10.5px;
+    color: var(--muted); font-style: italic;
+  }
+
+  /* Asian Metal tints the % cells red/green by sign — we mirror that
+     but with desaturated values to match the calm pastel palette. */
+  td.pct-pos {
+    color: var(--up); background: var(--up-soft); font-weight: 700;
+  }
+  td.pct-neg {
+    color: var(--down); background: var(--down-soft); font-weight: 700;
+  }
+  td.pct-zero, td.pct-na { color: var(--muted-2); }
+  td.chg-pos { color: var(--up); font-weight: 700; }
+  td.chg-neg { color: var(--down); font-weight: 700; }
+  td.chg-zero { color: var(--muted-2); }
+
+  .status { padding: 56px 16px; text-align: center; color: var(--muted); }
+
+  /* ----- Modal (chart) ----- */
+  .modal-backdrop {
+    position: fixed; inset: 0; z-index: 50;
+    background: rgba(29, 33, 41, .42);
+    backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px;
+    animation: fade .2s ease-out;
+  }
+  .modal-backdrop[hidden] { display: none; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+  .modal {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    width: 100%; max-width: 940px; max-height: 92vh; overflow: auto;
+    padding: 26px 28px 28px;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+    animation: pop .28s cubic-bezier(.2,.7,.2,1);
+  }
+  @keyframes pop {
+    from { opacity: 0; transform: scale(.97) translateY(8px); }
+    to { opacity: 1; transform: none; }
+  }
+  .modal h2 {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 30px; font-weight: 400; line-height: 1.1;
+    letter-spacing: -.01em; color: var(--ink);
+    margin: 0 36px 4px 0;
+  }
+  .msub {
+    margin: 0 0 18px; color: var(--muted); font-size: 13px;
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .msub .pip {
+    display: inline-flex; align-items: center;
+    padding: 2px 10px; border-radius: 999px;
+    background: var(--bg-soft); color: var(--ink-2);
+    font-weight: 500; font-size: 12px;
+  }
+
+  .mclose {
+    position: absolute; top: 14px; right: 16px;
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 0; background: var(--bg-soft);
+    font-size: 18px; line-height: 1; color: var(--ink-2);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background .14s ease, color .14s ease;
+  }
+  .mclose:hover { background: var(--sage-soft); color: var(--sage-deep); }
+
+  .mtools { display: flex; flex-direction: column; gap: 12px; margin-bottom: 14px; }
+  .toolrow {
+    display: flex; align-items: center; gap: 12px;
+    flex-wrap: wrap; justify-content: space-between;
+  }
+  .toolrow .lbl {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--muted); font-weight: 600;
+  }
+  .pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pills button {
+    font: inherit; font-size: 12px; font-weight: 600;
+    padding: 6px 14px;
+    background: transparent;
+    color: var(--ink-2);
+    border: 1px solid var(--line);
+    border-radius: 999px; cursor: pointer;
+    transition: all .12s ease;
+  }
+  .pills button:hover { background: var(--sage-tint); border-color: var(--sage-soft); }
+  .pills button.active {
+    background: var(--sage); color: #fff; border-color: var(--sage);
+  }
+
+  .btn-sm { padding: 7px 14px; font-size: 12.5px; }
+
+  .chart-wrap { position: relative; width: 100%; }
+  .chart-svg {
+    width: 100%; height: 44vh; max-height: 420px; min-height: 220px;
+    display: block; touch-action: none;
+  }
+  .chart-svg .grid { stroke: var(--line-2); stroke-width: 1; }
+  .chart-svg .zero { stroke: var(--muted-2); stroke-width: 1; stroke-dasharray: 4 4; }
+  .chart-svg .line { fill: none; stroke: var(--sage); stroke-width: 2; }
+  .chart-svg .ylab { fill: var(--muted); font-size: 11px; font-family: 'Manrope'; text-anchor: end; }
+  .chart-svg .xlab { fill: var(--muted); font-size: 11px; font-family: 'Manrope'; text-anchor: middle; }
+  .chart-svg .cross { stroke: var(--muted-2); stroke-width: 1; stroke-dasharray: 3 3; }
+  .chart-svg .dot { fill: var(--sage); stroke: #fff; stroke-width: 2; }
+
+  .chart-tip {
+    position: absolute; pointer-events: none;
+    background: var(--ink); color: #fff;
+    font-size: 12px; padding: 8px 11px; border-radius: 8px;
+    transform: translate(-50%, -125%); white-space: nowrap; display: none;
+    z-index: 2; text-align: center; box-shadow: var(--shadow-md);
+    font-weight: 500;
+  }
+  .chart-tip b { font-weight: 700; }
+
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 10px; margin-top: 18px;
+  }
+  .stat {
+    background: var(--card-2); border: 1px solid var(--line-2);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    display: flex; flex-direction: column; gap: 3px;
+  }
+  .stat.curr { background: var(--sage-soft); border-color: var(--sage-soft); }
+  .stat .lbl {
+    font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted); font-weight: 600;
+  }
+  .stat .val {
+    font-size: 16px; font-weight: 700;
+    font-variant-numeric: tabular-nums; color: var(--ink);
+    letter-spacing: -.01em;
+  }
+  .stat.curr .val { color: var(--sage-deep); }
+  .stat .val.up { color: var(--up); }
+  .stat .val.down { color: var(--down); }
+  .mcap { margin: 14px 0 0; font-size: 12px; color: var(--muted); }
+
+  /* ============================================================
+     Responsive
+     ============================================================ */
+  @media (max-width: 980px) {
+    :root { --sidebar-w: 220px; }
+    .content { padding: 24px 24px 60px; }
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 760px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar {
+      position: static; height: auto;
+      border-right: 0; border-bottom: 1px solid var(--line);
+      padding: 18px 18px 8px;
+    }
+    .brand { padding-bottom: 14px; margin-bottom: 12px; }
+    .nav-section h3 { margin-bottom: 8px; }
+    .nav-list {
+      display: flex; gap: 6px; overflow-x: auto;
+      padding-bottom: 4px; margin: 0 -2px;
+    }
+    .nav-list li {
+      flex: 0 0 auto; padding: 7px 14px; margin-bottom: 0;
+    }
+    .side-foot { display: none; }
+    .content { padding: 20px 18px 60px; }
+    .col-d180, .col-d360 { display: none; }
+    thead th.col-d180, thead th.col-d360 { display: none; }
+  }
+  @media (max-width: 560px) {
+    .topbar { gap: 14px; }
+    .controls { width: 100%; }
+    .field input { min-width: 0; flex: 1; }
+    .kpis { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .modal { padding: 22px 18px; }
+    .prod-tags { display: none; }
+  }
+
+  /* Accessibility — respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .01ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- ============================================================
+       Sidebar — brand mark + category navigation
+       ============================================================ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <h1 class="brand-title">Metal <em>Trends</em></h1>
+      <p class="brand-sub">Asian Metal · public feed</p>
+    </div>
+    <div class="nav-section">
+      <h3>Categories</h3>
+      <ul class="nav-list" id="navList">
+        <li class="active" data-cat="__ALL__">
+          <span>All categories</span><span class="count">—</span>
+        </li>
+      </ul>
+    </div>
+    <div class="side-foot">
+      Detailed Low / Mid / High prices on Asian Metal are subscriber-only and
+      are not included here. This view tracks the public daily Change and
+      30 / 90 / 180 / 360-day percentage moves.
+    </div>
+  </aside>
+
+  <!-- ============================================================
+       Main content
+       ============================================================ -->
+  <main class="content">
+    <header class="topbar">
+      <div class="title">
+        <h2>Daily Trends <span class="sample-pill" id="samplePill" hidden>Sample data</span></h2>
+        <p id="subtitle">Tracking percentage moves across the Asian Metal public feed.</p>
+      </div>
+      <div class="controls">
+        <label class="field">
+          <label for="dateSel">Date</label>
+          <select id="dateSel" aria-label="Snapshot date"></select>
+        </label>
+        <label class="field">
+          <input type="search" id="search" placeholder="Search product, spec, country…" />
+        </label>
+        <button class="btn" id="download" type="button">⬇ Export</button>
+      </div>
+    </header>
+
+    <!-- KPI strip ------------------------------------------------ -->
+    <section class="kpis" id="kpis">
+      <div class="kpi">
+        <span class="kpi-label">Products tracked</span>
+        <span class="kpi-value" id="kpiTotal">—</span>
+        <span class="kpi-sub" id="kpiTotalSub">across — categories</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Top 30-day gainer</span>
+        <span class="kpi-value up" id="kpiGainer">—</span>
+        <span class="kpi-sub" id="kpiGainerSub">—</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Top 30-day loser</span>
+        <span class="kpi-value down" id="kpiLoser">—</span>
+        <span class="kpi-sub" id="kpiLoserSub">—</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Days of history</span>
+        <span class="kpi-value" id="kpiDays">—</span>
+        <span class="kpi-sub" id="kpiDaysSub">—</span>
+      </div>
+    </section>
+
+    <!-- Data table card ----------------------------------------- -->
+    <section class="table-card">
+      <div class="card-head">
+        <h3 id="tableTitle">All products</h3>
+        <span class="meta" id="meta">Loading…</span>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th class="col-idx">#</th>
+              <th class="sortable" data-sort="product">Product <span class="sort-arrow">↕</span></th>
+              <th class="num sortable" data-sort="change">Change <span class="sort-arrow">↕</span></th>
+              <th class="num sortable" data-sort="d30">30-day <span class="sort-arrow">↕</span></th>
+              <th class="num sortable" data-sort="d90">90-day <span class="sort-arrow">↕</span></th>
+              <th class="num sortable col-d180" data-sort="d180">180-day <span class="sort-arrow">↕</span></th>
+              <th class="num sortable col-d360" data-sort="d360">360-day <span class="sort-arrow">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr><td colspan="7" class="status" id="status">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ============================================================
+     Chart modal
+     ============================================================ -->
+<div class="modal-backdrop" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mtitle">
+    <button class="mclose" id="mclose" aria-label="Close chart" type="button">&times;</button>
+    <h2 id="mtitle"></h2>
+    <p class="msub" id="msub"></p>
+    <div class="mtools">
+      <div class="toolrow">
+        <span class="lbl">Metric</span>
+        <div class="pills" id="metrics"></div>
+      </div>
+      <div class="toolrow">
+        <span class="lbl">Range</span>
+        <div class="pills" id="ranges"></div>
+        <button class="btn btn-ghost btn-sm" id="dlOne" type="button">⬇ Download this product</button>
+      </div>
+    </div>
+    <div class="chart-wrap" id="chartWrap">
+      <div class="chart-tip" id="ctip"></div>
+      <div id="chart"></div>
+    </div>
+    <div class="stats" id="mstats"></div>
+    <p class="mcap" id="mcap"></p>
+  </div>
+</div>
+
+<!-- ============================================================
+     Inline sample CSV — used only when fetch("prices.csv") fails
+     (preview iframes, file:// CORS, etc). The viewer will use a real
+     sibling prices.csv when one is reachable; this is the safety net
+     so the page is never blank.
+     Browsers ignore <script> blocks with unknown MIME types but still
+     expose textContent via the DOM — that's what we read.
+     ============================================================ -->
+<script type="text/csv" id="sample-csv">
+date,category,product,spec,country,change,d30,d90,d180,d360
+2026-05-12,Base Metals,Bauxite,Malaysian 40%min CIF China,Malaysia,0.00,0.00,1.40,0.00,-3.55
+2026-05-12,Base Metals,Bauxite,Malaysian 45%min CIF China,Malaysia,0.00,0.00,1.50,0.40,0.12
+2026-05-12,Base Metals,Bauxite,Guinean 45%min CIF China,Guinea,0.00,-0.18,2.60,1.65,-4.05
+2026-05-12,Base Metals,Bauxite,Australian Monohydrate 50%min CIF China,Australia,0.00,0.00,-0.45,-3.60,-11.10
+2026-05-12,Base Metals,Bauxite,58%min Al/Si 5.0 Ex-VAT Delivered China,China,0.00,0.00,-1.00,-4.40,-6.50
+2026-05-12,Base Metals,Bauxite,60%min Al/Si 5.0 Ex-VAT Delivered China,China,0.00,0.00,-0.92,-4.20,-6.20
+2026-05-12,Base Metals,Caustic Soda,32%min Delivered China,China,0.00,-10.80,-8.50,-9.05,-16.95
+2026-05-12,Base Metals,Alumina,98.5%min EXW China,China,-3.00,-0.95,-1.30,-1.00,-8.20
+2026-05-12,Minor Metals,Lithium Carbonate,Battery grade 99.5%min EXW China,China,0.00,2.40,5.80,-2.20,-18.40
+2026-05-12,Minor Metals,Lithium Hydroxide,Battery grade 56.5%min EXW China,China,0.00,1.80,4.20,-3.10,-21.50
+2026-05-12,Minor Metals,Cobalt,99.8%min EXW China,China,0.00,-0.40,1.20,3.50,-4.80
+2026-05-12,Minor Metals,Magnesium Ingot,99.9%min FOB China,China,-200.00,-1.20,-2.80,-1.50,-9.20
+2026-05-12,Minor Metals,Silicon Metal,5-5-3 EXW China,China,0.00,0.30,-2.10,-5.40,-12.30
+2026-05-12,Ferroalloys,Ferrochrome,High carbon 60%min EXW China,China,-50.00,-2.10,-4.50,-6.80,-11.40
+2026-05-12,Ferroalloys,Ferromanganese,High carbon 75%min EXW China,China,0.00,-0.80,-1.50,-3.20,-7.60
+2026-05-12,Ferroalloys,Ferrosilicon,75%min EXW China,China,0.00,1.20,2.40,-1.80,-5.20
+2026-05-19,Base Metals,Bauxite,Malaysian 40%min CIF China,Malaysia,0.00,0.00,1.55,0.04,-3.63
+2026-05-19,Base Metals,Bauxite,Malaysian 45%min CIF China,Malaysia,0.00,0.00,1.67,0.45,0.10
+2026-05-19,Base Metals,Bauxite,Guinean 45%min CIF China,Guinea,0.00,-0.21,2.81,1.72,-4.14
+2026-05-19,Base Metals,Bauxite,Australian Monohydrate 50%min CIF China,Australia,0.00,0.00,-0.50,-3.77,-11.31
+2026-05-19,Base Metals,Bauxite,58%min Al/Si 5.0 Ex-VAT Delivered China,China,0.00,0.00,-1.06,-4.58,-6.75
+2026-05-19,Base Metals,Bauxite,60%min Al/Si 5.0 Ex-VAT Delivered China,China,0.00,0.00,-0.99,-4.33,-6.38
+2026-05-19,Base Metals,Caustic Soda,32%min Delivered China,China,0.00,-11.19,-8.88,-9.30,-17.22
+2026-05-19,Base Metals,Alumina,98.5%min EXW China,China,-5.00,-1.06,-1.49,-1.14,-8.41
+2026-05-19,Minor Metals,Lithium Carbonate,Battery grade 99.5%min EXW China,China,500.00,3.85,7.20,-1.45,-17.80
+2026-05-19,Minor Metals,Lithium Hydroxide,Battery grade 56.5%min EXW China,China,300.00,2.50,5.10,-2.40,-20.95
+2026-05-19,Minor Metals,Cobalt,99.8%min EXW China,China,0.00,-0.25,1.85,4.20,-4.10
+2026-05-19,Minor Metals,Magnesium Ingot,99.9%min FOB China,China,-100.00,-1.85,-3.25,-1.90,-9.85
+2026-05-19,Minor Metals,Silicon Metal,5-5-3 EXW China,China,0.00,0.45,-2.65,-5.85,-12.70
+2026-05-19,Ferroalloys,Ferrochrome,High carbon 60%min EXW China,China,-30.00,-2.55,-4.95,-7.20,-11.85
+2026-05-19,Ferroalloys,Ferromanganese,High carbon 75%min EXW China,China,0.00,-1.15,-1.95,-3.65,-7.95
+2026-05-19,Ferroalloys,Ferrosilicon,75%min EXW China,China,50.00,1.55,2.85,-1.55,-4.85
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ============================================================
+     CSV parsing (RFC-4180-ish, handles quoted fields).
+     Long-format input:
+       date,category,product,spec,country,change,d30,d90,d180,d360
+     ============================================================ */
+  function parseCSV(text) {
+    var rows = [], row = [], field = "", i = 0, inQ = false, c;
+    while (i < text.length) {
+      c = text[i];
+      if (inQ) {
+        if (c === '"') {
+          if (text[i + 1] === '"') { field += '"'; i += 2; continue; }
+          inQ = false; i++; continue;
+        }
+        field += c; i++; continue;
+      }
+      if (c === '"') { inQ = true; i++; continue; }
+      if (c === ",") { row.push(field); field = ""; i++; continue; }
+      if (c === "\r") { i++; continue; }
+      if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; i++; continue; }
+      field += c; i++;
+    }
+    if (field.length || row.length) { row.push(field); rows.push(row); }
+    return rows;
+  }
+
+  // The five metrics we track per (product, date). Order matters — it's the
+  // order the buttons appear in and the default-selected metric.
+  var METRICS = [
+    { key: "d30",    label: "30-Day %",  isPct: true,  short: "30D" },
+    { key: "d90",    label: "90-Day %",  isPct: true,  short: "90D" },
+    { key: "d180",   label: "180-Day %", isPct: true,  short: "180D" },
+    { key: "d360",   label: "360-Day %", isPct: true,  short: "360D" },
+    { key: "change", label: "Daily Change", isPct: false, short: "Δ" }
+  ];
+  var RANGES = [["1m", "1M"], ["3m", "3M"], ["6m", "6M"], ["1y", "1Y"], ["all", "All"]];
+
+  /* ============================================================
+     State
+     ============================================================ */
+  var rawText = "";          // raw CSV for full-file download
+  var records = [];          // all observations
+  var dates = [];            // sorted unique dates (ascending)
+  var keys = [];             // unique product||spec keys, first-seen order
+  var keyMeta = {};          // key -> {product, spec, category, country}
+  var byDate = {};           // date -> { key -> record }
+  var byKey = {};            // key -> [records sorted ascending by date]
+  var currentCat = "__ALL__";
+  // Default sort: biggest 30-day movers first. With 500+ rows this matters
+  // a lot more than alphabetical order; the most interesting products end
+  // up at the top of the table without the user having to do anything.
+  var sortState = { col: "d30", dir: "desc" };
+
+  // Try to load prices.csv from disk first. Fall back to the inline sample
+  // data embedded at the bottom of this file when (a) the file isn't there,
+  // (b) we're opened from file:// where browsers block sibling fetches, or
+  // (c) we're inside an iframe preview that doesn't serve the CSV. The
+  // viewer shows a small "Sample data" pill so it's obvious which mode
+  // is active.
+  function loadData() {
+    return fetch("prices.csv?_=" + Date.now())
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      })
+      .then(function (text) {
+        if (!text || !text.trim()) throw new Error("empty file");
+        return { text: text, isSample: false };
+      })
+      .catch(function () {
+        var inline = document.getElementById("sample-csv");
+        var fallback = inline ? inline.textContent.trim() : "";
+        if (!fallback) throw new Error("no prices.csv and no inline sample");
+        return { text: fallback, isSample: true };
+      });
+  }
+
+  loadData()
+    .then(function (result) {
+      if (result.isSample) {
+        var pill = document.getElementById("samplePill");
+        if (pill) pill.hidden = false;
+      }
+      var text = result.text;
+      rawText = text;
+      var rows = parseCSV(text).filter(function (r) { return r.length > 1; });
+      if (rows.length < 2) throw new Error("CSV has no data yet");
+
+      // Header-driven column lookup so the scraper can re-order or add cols.
+      var hdr = rows[0].map(function (s) { return s.trim().toLowerCase(); });
+      var idx = function (name) { return hdr.indexOf(name); };
+      var cDate = idx("date"),
+          cCat = idx("category"),
+          cProd = idx("product"),
+          cSpec = idx("spec"),
+          cCountry = idx("country"),
+          cChange = idx("change"),
+          c30 = idx("d30"),
+          c90 = idx("d90"),
+          c180 = idx("d180"),
+          c360 = idx("d360");
+      if (cDate < 0 || cProd < 0) {
+        throw new Error("CSV missing required 'date' or 'product' column");
+      }
+
+      var dateSet = {}, keySet = {};
+      for (var r = 1; r < rows.length; r++) {
+        var row = rows[r];
+        var date = (row[cDate] || "").trim();
+        var product = cProd >= 0 ? (row[cProd] || "").trim() : "";
+        var spec = cSpec >= 0 ? (row[cSpec] || "").trim() : "";
+        if (!date || !product) continue;
+        var key = product + " || " + spec;
+        var rec = {
+          date: date,
+          category: cCat >= 0 ? (row[cCat] || "").trim() : "",
+          product: product,
+          spec: spec,
+          country: cCountry >= 0 ? (row[cCountry] || "").trim() : "",
+          change: cChange >= 0 ? row[cChange] : "",
+          d30: c30 >= 0 ? row[c30] : "",
+          d90: c90 >= 0 ? row[c90] : "",
+          d180: c180 >= 0 ? row[c180] : "",
+          d360: c360 >= 0 ? row[c360] : ""
+        };
+        records.push(rec);
+
+        if (!dateSet[date]) { dateSet[date] = 1; dates.push(date); }
+        if (!keySet[key]) {
+          keySet[key] = 1;
+          keys.push(key);
+          keyMeta[key] = {
+            product: rec.product, spec: rec.spec,
+            category: rec.category, country: rec.country
+          };
+        }
+        // Prefer the most recent non-empty category/country.
+        if (rec.category) keyMeta[key].category = rec.category;
+        if (rec.country) keyMeta[key].country = rec.country;
+
+        if (!byDate[date]) byDate[date] = {};
+        byDate[date][key] = rec;
+        if (!byKey[key]) byKey[key] = [];
+        byKey[key].push(rec);
+      }
+
+      if (!records.length) throw new Error("CSV has no usable rows");
+
+      dates.sort();
+      Object.keys(byKey).forEach(function (k) {
+        byKey[k].sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+      });
+
+      populateDateSelect();
+      populateSidebar();
+      bindEvents();
+      render();
+    })
+    .catch(function (e) {
+      document.getElementById("status").textContent =
+        "Could not load prices.csv (" + e.message + ").";
+      document.getElementById("meta").textContent = "Error";
+    });
+
+  function bindEvents() {
+    document.getElementById("dateSel").addEventListener("change", render);
+
+    // Debounce the search input so re-rendering ~500 rows on every
+    // keystroke stays smooth. 120ms is short enough to feel responsive
+    // and long enough to skip most of the in-progress typing.
+    var searchTimer;
+    document.getElementById("search").addEventListener("input", function () {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(render, 120);
+    });
+
+    document.getElementById("download").addEventListener("click", downloadCSV);
+
+    document.getElementById("navList").addEventListener("click", function (e) {
+      var li = e.target.closest("li[data-cat]");
+      if (!li) return;
+      currentCat = li.getAttribute("data-cat");
+      [].forEach.call(this.children, function (item) {
+        item.classList.toggle("active", item.getAttribute("data-cat") === currentCat);
+      });
+      render();
+    });
+
+    // Sortable column headers. Clicking the same column toggles direction;
+    // clicking a different column resets to its sensible default
+    // (alphabetical for text, biggest-first for numeric).
+    document.querySelector("thead").addEventListener("click", function (e) {
+      var th = e.target.closest("th[data-sort]");
+      if (!th) return;
+      var col = th.getAttribute("data-sort");
+      if (sortState.col === col) {
+        sortState.dir = sortState.dir === "asc" ? "desc" : "asc";
+      } else {
+        sortState.col = col;
+        sortState.dir = (col === "product") ? "asc" : "desc";
+      }
+      render();
+    });
+
+    document.getElementById("tbody").addEventListener("click", function (e) {
+      var row = e.target.closest("tr.clk");
+      if (row) openChart(row.getAttribute("data-k"));
+    });
+    document.getElementById("mclose").addEventListener("click", closeChart);
+    document.getElementById("dlOne").addEventListener("click", function () {
+      downloadProduct(chartKey);
+    });
+    document.getElementById("modal").addEventListener("click", function (e) {
+      if (e.target.id === "modal") closeChart();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeChart();
+    });
+  }
+
+  function populateDateSelect() {
+    var sel = document.getElementById("dateSel");
+    for (var k = dates.length - 1; k >= 0; k--) {
+      var o = document.createElement("option");
+      o.value = o.textContent = dates[k];
+      sel.appendChild(o);
+    }
+    sel.value = dates[dates.length - 1];
+  }
+
+  function populateSidebar() {
+    var nav = document.getElementById("navList");
+    // Tally categories. Empty-category products are filed under "Uncategorised".
+    var counts = {};
+    keys.forEach(function (k) {
+      var c = (keyMeta[k].category || "").trim() || "Uncategorised";
+      counts[c] = (counts[c] || 0) + 1;
+    });
+    var list = Object.keys(counts).sort(function (a, b) { return a.localeCompare(b); });
+
+    // Update the "All categories" count on the prefilled <li>.
+    nav.querySelector('li[data-cat="__ALL__"] .count').textContent = keys.length;
+
+    list.forEach(function (c) {
+      var li = document.createElement("li");
+      li.setAttribute("data-cat", c);
+      li.innerHTML = '<span>' + esc(c) + '</span><span class="count">' + counts[c] + '</span>';
+      nav.appendChild(li);
+    });
+  }
+
+  // Most recent record for this product on/before the given date index.
+  function effective(key, dIdx) {
+    for (var i = dIdx; i >= 0; i--) {
+      var bucket = byDate[dates[i]];
+      if (bucket && bucket[key]) return { rec: bucket[key], dateIdx: i };
+    }
+    return null;
+  }
+
+  function matchKeys(q, cat) {
+    q = (q || "").trim().toLowerCase();
+    var out = [];
+    keys.forEach(function (k) {
+      var m = keyMeta[k];
+      var keyCat = (m.category || "").trim() || "Uncategorised";
+      if (cat && cat !== "__ALL__" && keyCat !== cat) return;
+      var hay = (m.product + " " + m.spec + " " + m.country + " " + m.category).toLowerCase();
+      if (!q || hay.indexOf(q) !== -1) out.push(k);
+    });
+    return out;
+  }
+
+  /* ============================================================
+     Number formatting
+     Tolerates "+1.55", "1.55%", "+0.00", "-5.00" — strips +/% but
+     keeps minus signs so Number() returns the right thing.
+     ============================================================ */
+  function num(v) {
+    if (v == null || v === "") return null;
+    var s = String(v).replace(/[+%\s]/g, "");
+    var n = Number(s);
+    return isFinite(n) ? n : null;
+  }
+
+  function fmtPct(v) {
+    var n = num(v);
+    if (n == null) return { html: "—", cls: "pct-na" };
+    if (n === 0) return { html: "0.00%", cls: "pct-zero" };
+    var sign = n > 0 ? "+" : "−";
+    return {
+      html: sign + Math.abs(n).toFixed(2) + "%",
+      cls: n > 0 ? "pct-pos" : "pct-neg"
+    };
+  }
+
+  function fmtChange(v) {
+    var n = num(v);
+    if (n == null) return { html: "—", cls: "chg-zero" };
+    if (n === 0) return { html: "0.00", cls: "chg-zero" };
+    var sign = n > 0 ? "+" : "−";
+    return {
+      html: sign + Math.abs(n).toFixed(2),
+      cls: n > 0 ? "chg-pos" : "chg-neg"
+    };
+  }
+
+  /* ============================================================
+     CSV download (long format, same as input)
+     ============================================================ */
+  function csvCell(s) {
+    s = (s == null) ? "" : String(s);
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+
+  function slug(s) {
+    return String(s).toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function buildCSV(selectedKeys) {
+    var keep = {};
+    selectedKeys.forEach(function (k) { keep[k] = 1; });
+    var hdr = ["date", "category", "product", "spec", "country",
+               "change", "d30", "d90", "d180", "d360"];
+    var lines = [hdr.join(",")];
+    records.forEach(function (rec) {
+      var key = rec.product + " || " + rec.spec;
+      if (!keep[key]) return;
+      lines.push(hdr.map(function (h) { return csvCell(rec[h]); }).join(","));
+    });
+    return lines.join("\r\n") + "\r\n";
+  }
+
+  function saveCSV(name, text) {
+    var blob = new Blob([text], { type: "text/csv;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+  }
+
+  function downloadCSV() {
+    var q = document.getElementById("search").value.trim();
+    if (!q && currentCat === "__ALL__") {
+      saveCSV("asianmetal-trends.csv", rawText); return;
+    }
+    var matched = matchKeys(q, currentCat);
+    if (!matched.length) {
+      alert("No products match the current filter — nothing to download.");
+      return;
+    }
+    var tag = [currentCat !== "__ALL__" ? slug(currentCat) : "", q ? slug(q) : ""]
+      .filter(Boolean).join("-");
+    saveCSV("asianmetal-trends-" + (tag || "filtered") + ".csv", buildCSV(matched));
+  }
+
+  function downloadProduct(key) {
+    if (!key) return;
+    var m = keyMeta[key];
+    saveCSV("asianmetal-" + slug(m.product + "-" + m.spec) + ".csv", buildCSV([key]));
+  }
+
+  /* ============================================================
+     Render
+     ============================================================ */
+  function render() {
+    var dateSel = document.getElementById("dateSel"),
+        qRaw = document.getElementById("search").value.trim(),
+        date = dateSel.value,
+        dIdx = dates.indexOf(date),
+        tbody = document.getElementById("tbody"),
+        meta = document.getElementById("meta"),
+        dlBtn = document.getElementById("download"),
+        tableTitle = document.getElementById("tableTitle"),
+        subtitle = document.getElementById("subtitle");
+
+    tbody.innerHTML = "";
+    var matched = matchKeys(qRaw, currentCat);
+    var visible = []; // products that have an effective record on/before `date`
+
+    matched.forEach(function (k) {
+      var eff = effective(k, dIdx);
+      if (!eff) return;
+      visible.push({ key: k, eff: eff });
+    });
+
+    sortVisible(visible);
+    updateSortIndicators();
+
+    visible.forEach(function (item, i) {
+      var k = item.key, eff = item.eff;
+      var m = keyMeta[k];
+      var rec = eff.rec;
+      var stale = eff.dateIdx !== dIdx
+        ? '<span class="stale">last seen ' + dates[eff.dateIdx] + '</span>'
+        : "";
+
+      var tagBits = "";
+      if (m.country) tagBits += '<span class="tag country">' + esc(m.country) + '</span>';
+      if (m.category) tagBits += '<span class="tag">' + esc(m.category) + '</span>';
+
+      var prodCell =
+        '<span class="prod-name">' + esc(m.product) + '</span>' +
+        (m.spec ? '<span class="prod-sub">' + esc(m.spec) + '</span>' : '') +
+        (tagBits ? '<span class="prod-tags">' + tagBits + '</span>' : '') +
+        stale;
+
+      var c = fmtChange(rec.change);
+      var p30 = fmtPct(rec.d30);
+      var p90 = fmtPct(rec.d90);
+      var p180 = fmtPct(rec.d180);
+      var p360 = fmtPct(rec.d360);
+
+      var tr = document.createElement("tr");
+      tr.className = "clk";
+      tr.setAttribute("data-k", k);
+      tr.title = "View trend chart";
+      tr.innerHTML =
+        '<td class="col-idx">' + (i + 1) + "</td>" +
+        "<td>" + prodCell + "</td>" +
+        '<td class="num ' + c.cls + '">' + c.html + "</td>" +
+        '<td class="num ' + p30.cls + '">' + p30.html + "</td>" +
+        '<td class="num ' + p90.cls + '">' + p90.html + "</td>" +
+        '<td class="num col-d180 ' + p180.cls + '">' + p180.html + "</td>" +
+        '<td class="num col-d360 ' + p360.cls + '">' + p360.html + "</td>";
+      tbody.appendChild(tr);
+    });
+
+    if (!visible.length) {
+      tbody.innerHTML =
+        '<tr><td colspan="7" class="status">No products match the current filter.</td></tr>';
+    }
+
+    // Title + subtitle reflect active filter
+    var catLabel = currentCat === "__ALL__" ? "All products" : currentCat;
+    tableTitle.textContent = catLabel + (qRaw ? ' · "' + qRaw + '"' : "");
+    var totalCats = countCategories();
+    subtitle.innerHTML = "Tracking <strong>" + keys.length + "</strong> products across <strong>" +
+      totalCats + "</strong> categories &middot; " + dates.length + " days of history.";
+    meta.innerHTML = "<strong>" + visible.length + "</strong> products &middot; as of <strong>" +
+      esc(date) + "</strong>";
+
+    var hasFilter = qRaw || currentCat !== "__ALL__";
+    if (hasFilter) {
+      dlBtn.textContent = visible.length
+        ? "⬇ Export (" + visible.length + ")"
+        : "⬇ Nothing to export";
+      dlBtn.disabled = !visible.length;
+    } else {
+      dlBtn.textContent = "⬇ Export";
+      dlBtn.disabled = false;
+    }
+
+    renderKPIs(visible, totalCats);
+  }
+
+  function countCategories() {
+    var seen = {};
+    keys.forEach(function (k) {
+      var c = (keyMeta[k].category || "").trim() || "Uncategorised";
+      seen[c] = 1;
+    });
+    return Object.keys(seen).length;
+  }
+
+  /* ============================================================
+     KPI strip — computed against the *currently visible* rows so
+     it reflects whatever filter the user has applied.
+     ============================================================ */
+  function renderKPIs(visible, totalCats) {
+    var $tot = document.getElementById("kpiTotal"),
+        $totS = document.getElementById("kpiTotalSub"),
+        $gain = document.getElementById("kpiGainer"),
+        $gainS = document.getElementById("kpiGainerSub"),
+        $lose = document.getElementById("kpiLoser"),
+        $loseS = document.getElementById("kpiLoserSub"),
+        $days = document.getElementById("kpiDays"),
+        $daysS = document.getElementById("kpiDaysSub");
+
+    $tot.textContent = visible.length;
+    $totS.textContent = currentCat === "__ALL__"
+      ? "across " + totalCats + " categor" + (totalCats === 1 ? "y" : "ies")
+      : "in " + currentCat;
+
+    var scored = [];
+    visible.forEach(function (item) {
+      var v = num(item.eff.rec.d30);
+      if (v != null) scored.push({ key: item.key, val: v });
+    });
+    scored.sort(function (a, b) { return b.val - a.val; });
+
+    if (scored.length) {
+      var top = scored[0], bot = scored[scored.length - 1];
+      $gain.textContent = fmtSigned(top.val, true);
+      $gain.className = "kpi-value " + (top.val > 0 ? "up" : top.val < 0 ? "down" : "");
+      $gainS.textContent = labelFor(top.key);
+
+      $lose.textContent = fmtSigned(bot.val, true);
+      $lose.className = "kpi-value " + (bot.val > 0 ? "up" : bot.val < 0 ? "down" : "");
+      $loseS.textContent = labelFor(bot.key);
+    } else {
+      $gain.textContent = "—"; $gainS.textContent = "No 30-day data";
+      $lose.textContent = "—"; $loseS.textContent = "No 30-day data";
+      $gain.className = "kpi-value"; $lose.className = "kpi-value";
+    }
+
+    $days.textContent = dates.length;
+    $daysS.textContent = dates.length
+      ? dates[0] + " → " + dates[dates.length - 1]
+      : "—";
+  }
+
+  function labelFor(key) {
+    var m = keyMeta[key];
+    return m.product + (m.spec ? " · " + m.spec : "");
+  }
+
+  function fmtSigned(v, isPct) {
+    if (v == null || !isFinite(v)) return "—";
+    var sign = v > 0 ? "+" : (v < 0 ? "−" : "");
+    return sign + Math.abs(v).toFixed(2) + (isPct ? "%" : "");
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (m) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m];
+    });
+  }
+
+  /* ============================================================
+     Sorting — applied to the `visible` array before render.
+     - product column: alphabetical (string compare)
+     - everything else: numeric, with missing values pinned to the
+       bottom regardless of direction so they never block the
+       interesting data.
+     ============================================================ */
+  function sortVisible(arr) {
+    var col = sortState.col;
+    var mult = sortState.dir === "asc" ? 1 : -1;
+    arr.sort(function (a, b) {
+      if (col === "product") {
+        var pa = keyMeta[a.key].product || "";
+        var pb = keyMeta[b.key].product || "";
+        var cmp = pa.localeCompare(pb);
+        if (cmp !== 0) return mult * cmp;
+        // Tiebreak on spec so identically-named products group together.
+        return mult * (keyMeta[a.key].spec || "").localeCompare(keyMeta[b.key].spec || "");
+      }
+      var va = num(a.eff.rec[col]);
+      var vb = num(b.eff.rec[col]);
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1;
+      if (vb == null) return -1;
+      if (va === vb) return 0;
+      return mult * (va - vb);
+    });
+  }
+
+  function updateSortIndicators() {
+    var ths = document.querySelectorAll("thead th[data-sort]");
+    [].forEach.call(ths, function (th) {
+      var col = th.getAttribute("data-sort");
+      var active = (col === sortState.col);
+      th.classList.toggle("active", active);
+      var arrow = th.querySelector(".sort-arrow");
+      if (!arrow) return;
+      arrow.textContent = active ? (sortState.dir === "asc" ? "↑" : "↓") : "↕";
+    });
+  }
+
+  /* ============================================================
+     Chart modal
+     ============================================================ */
+  var chartKey = null, chartMetric = "d30", chartRange = "all";
+
+  function metricByKey(k) {
+    for (var i = 0; i < METRICS.length; i++) if (METRICS[i].key === k) return METRICS[i];
+    return METRICS[0];
+  }
+
+  function seriesFor(key, metric) {
+    var arr = byKey[key] || [];
+    var out = [];
+    arr.forEach(function (rec) {
+      var n = num(rec[metric]);
+      if (n != null) out.push({ t: rec.date, v: n });
+    });
+    return out;
+  }
+
+  function inRange(all, range) {
+    if (range === "all" || !all.length) return all;
+    var months = { "1y": 12, "6m": 6, "3m": 3, "1m": 1 }[range] || 9999;
+    var cut = new Date(all[all.length - 1].t + "T00:00:00");
+    cut.setMonth(cut.getMonth() - months);
+    return all.filter(function (p) { return new Date(p.t + "T00:00:00") >= cut; });
+  }
+
+  function fmtVal(v, isPct) {
+    if (v == null || !isFinite(v)) return "—";
+    var sign = v > 0 ? "+" : (v < 0 ? "−" : "");
+    return sign + Math.abs(v).toFixed(2) + (isPct ? "%" : "");
+  }
+
+  function statCard(label, val, cls) {
+    return '<div class="stat"><span class="lbl">' + label +
+      '</span><span class="val ' + (cls || "") + '">' + val + '</span></div>';
+  }
+
+  function openChart(key) {
+    chartKey = key;
+    chartMetric = "d30";
+    chartRange = "all";
+    var m = keyMeta[key];
+    document.getElementById("mtitle").textContent = m.product;
+
+    var subEl = document.getElementById("msub");
+    subEl.innerHTML = "";
+    [m.spec, m.country, m.category].filter(Boolean).forEach(function (s) {
+      var pip = document.createElement("span");
+      pip.className = "pip"; pip.textContent = s;
+      subEl.appendChild(pip);
+    });
+
+    var mb = document.getElementById("metrics");
+    mb.innerHTML = "";
+    METRICS.forEach(function (mt) {
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = mt.short;
+      b.title = mt.label;
+      b.setAttribute("data-m", mt.key);
+      if (mt.key === chartMetric) b.className = "active";
+      b.addEventListener("click", function () {
+        chartMetric = mt.key;
+        [].forEach.call(mb.children, function (c) {
+          c.className = c.getAttribute("data-m") === chartMetric ? "active" : "";
+        });
+        drawChart();
+      });
+      mb.appendChild(b);
+    });
+
+    var rb = document.getElementById("ranges");
+    rb.innerHTML = "";
+    RANGES.forEach(function (r) {
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = r[1];
+      b.setAttribute("data-r", r[0]);
+      if (r[0] === chartRange) b.className = "active";
+      b.addEventListener("click", function () {
+        chartRange = r[0];
+        [].forEach.call(rb.children, function (c) {
+          c.className = c.getAttribute("data-r") === chartRange ? "active" : "";
+        });
+        drawChart();
+      });
+      rb.appendChild(b);
+    });
+
+    document.getElementById("modal").hidden = false;
+    drawChart();
+  }
+
+  function closeChart() {
+    document.getElementById("modal").hidden = true;
+  }
+
+  function drawChart() {
+    var metric = metricByKey(chartMetric);
+    var all = seriesFor(chartKey, metric.key);
+    var pts = inRange(all, chartRange);
+    var host = document.getElementById("chart");
+    var tip = document.getElementById("ctip");
+    tip.style.display = "none";
+
+    if (pts.length < 2) {
+      host.innerHTML = '<p style="color:var(--muted);font-size:13px;' +
+        'padding:40px 0;text-align:center">Not enough data for this metric and range.</p>';
+      document.getElementById("mstats").innerHTML = "";
+      document.getElementById("mcap").textContent = "";
+      return;
+    }
+
+    var W = 780, H = 380, padL = 64, padR = 14, padT = 16, padB = 40;
+    var iw = W - padL - padR, ih = H - padT - padB;
+    var vs = pts.map(function (p) { return p.v; });
+    var mn = Math.min.apply(null, vs), mx = Math.max.apply(null, vs);
+    // Always include zero — these are change values, the baseline matters.
+    if (mn > 0) mn = 0;
+    if (mx < 0) mx = 0;
+    if (mn === mx) { mn -= 1; mx += 1; }
+    var padPct = (mx - mn) * 0.08;
+    mn -= padPct; mx += padPct;
+
+    var n = pts.length;
+    var X = function (i) { return padL + (n <= 1 ? iw / 2 : iw * i / (n - 1)); };
+    var Y = function (v) { return padT + ih - ih * (v - mn) / (mx - mn); };
+
+    var s = "", T = 5, i, val, yy;
+    for (i = 0; i <= T; i++) {
+      val = mn + (mx - mn) * i / T; yy = Y(val);
+      s += '<line class="grid" x1="' + padL + '" y1="' + yy.toFixed(1) +
+        '" x2="' + (W - padR) + '" y2="' + yy.toFixed(1) + '"/>';
+      s += '<text class="ylab" x="' + (padL - 10) + '" y="' +
+        (yy + 4).toFixed(1) + '">' + fmtVal(val, metric.isPct) + '</text>';
+    }
+    if (mn < 0 && mx > 0) {
+      var zy = Y(0);
+      s += '<line class="zero" x1="' + padL + '" y1="' + zy.toFixed(1) +
+        '" x2="' + (W - padR) + '" y2="' + zy.toFixed(1) + '"/>';
+    }
+
+    var xs = [0, Math.floor((n - 1) / 2), n - 1];
+    xs.forEach(function (idx) {
+      s += '<text class="xlab" x="' + X(idx).toFixed(1) + '" y="' +
+        (H - padB + 24) + '">' + pts[idx].t + '</text>';
+    });
+
+    var dp = pts.map(function (p, k) {
+      return (k ? "L" : "M") + X(k).toFixed(1) + " " + Y(p.v).toFixed(1);
+    }).join(" ");
+    s += '<path class="line" d="' + dp + '"/>';
+    s += '<line id="cx" class="cross" x1="0" x2="0" y1="' + padT +
+      '" y2="' + (padT + ih) + '" style="display:none"/>';
+    s += '<circle id="dt" class="dot" r="5" style="display:none"/>';
+
+    host.innerHTML = '<svg id="csvg" viewBox="0 0 ' + W + ' ' + H +
+      '" preserveAspectRatio="none" class="chart-svg"></svg>';
+    var svg = document.getElementById("csvg");
+    svg.innerHTML = s;
+    var cx = document.getElementById("cx"), dt = document.getElementById("dt");
+
+    function move(ev) {
+      var rect = svg.getBoundingClientRect();
+      var clientX = ev.touches ? ev.touches[0].clientX : ev.clientX;
+      var lx = (clientX - rect.left) / rect.width * W;
+      var k = Math.round((lx - padL) / (iw || 1) * (n - 1));
+      if (k < 0) k = 0;
+      if (k > n - 1) k = n - 1;
+      var px = X(k), py = Y(pts[k].v);
+      cx.setAttribute("x1", px); cx.setAttribute("x2", px); cx.style.display = "";
+      dt.setAttribute("cx", px); dt.setAttribute("cy", py); dt.style.display = "";
+      tip.style.display = "block";
+      tip.style.left = (px / W * rect.width) + "px";
+      tip.style.top = (py / H * rect.height) + "px";
+      var v = pts[k].v;
+      var color = v > 0 ? "#9ec9a7" : (v < 0 ? "#e8b5a5" : "#fff");
+      tip.innerHTML = '<b style="color:' + color + '">' + fmtVal(v, metric.isPct) +
+        "</b><br>" + pts[k].t;
+      if (ev.cancelable) ev.preventDefault();
+    }
+    function leave() {
+      cx.style.display = "none"; dt.style.display = "none"; tip.style.display = "none";
+    }
+    svg.addEventListener("mousemove", move);
+    svg.addEventListener("mouseleave", leave);
+    svg.addEventListener("touchstart", move);
+    svg.addEventListener("touchmove", move);
+
+    // Stats below the chart.
+    var curV = all[all.length - 1].v, curT = all[all.length - 1].t;
+    var seriesMin = Math.min.apply(null, vs);
+    var seriesMax = Math.max.apply(null, vs);
+
+    // "Δ vs ~1 month ago": current value vs the same metric ~1 month earlier.
+    var target = new Date(curT + "T00:00:00");
+    target.setMonth(target.getMonth() - 1);
+    var base = all[0];
+    for (var b = all.length - 1; b >= 0; b--) {
+      if (new Date(all[b].t + "T00:00:00") <= target) { base = all[b]; break; }
+    }
+    var deltaV = curV - base.v;
+    var deltaCls = deltaV > 0 ? "up" : (deltaV < 0 ? "down" : "");
+    var deltaTxt = (!isFinite(deltaV) || deltaV === 0) ? "—" : fmtVal(deltaV, metric.isPct);
+
+    var rlabel = "All";
+    RANGES.forEach(function (r) { if (r[0] === chartRange) rlabel = r[1]; });
+
+    var curCls = curV > 0 ? "up" : (curV < 0 ? "down" : "");
+
+    document.getElementById("mstats").innerHTML =
+      '<div class="stat curr"><span class="lbl">Latest ' + esc(metric.label) +
+        '</span><span class="val ' + curCls + '">' + fmtVal(curV, metric.isPct) + '</span></div>' +
+      statCard("Δ vs ~1mo ago", deltaTxt, deltaCls) +
+      statCard("Low (" + rlabel + ")", fmtVal(seriesMin, metric.isPct), "down") +
+      statCard("High (" + rlabel + ")", fmtVal(seriesMax, metric.isPct), "up");
+
+    document.getElementById("mcap").textContent =
+      metric.label + " · Range " + rlabel + " · " +
+      n + " of " + all.length + " points (" +
+      pts[0].t + " → " + pts[n - 1].t + ") · latest as of " + curT;
+  }
+})();
+</script>
+</body>
+</html>
